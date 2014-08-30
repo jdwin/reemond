@@ -340,10 +340,7 @@ li.contactButton:nth-child(4) a {
    Images
    ========================================================================== */
 
-#d1 .ree {
-    width: 100%;
-    background-image:url('../img/city.gif')
-}
+#d1 .ree {background-color: #000000}
 
 #d2 .ree {background-color: #000000}
 
