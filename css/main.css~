@@ -1,0 +1,618 @@
+
+/*************************************
+	   sarkio 2014
+**************************************/
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1.4%;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1%;
+    border: 0;
+    border-top: 1% solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Page
+   ========================================================================== */
+
+#page {
+}
+
+/* ==========================================================================
+   Menu
+   ========================================================================== */
+
+#menu  {
+    position: fixed !important;
+    right: 5%;
+    line-height: 1.5em;
+    top: 30%;
+    font-size: 2.6em;
+    z-index: 100;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu .home a {
+    color: white;
+}
+
+#menu a {
+    color: #CC0033;
+    text-decoration: none;
+    font-family: BebasNeue;
+    text-shadow: 5px 5px 8px #000000;
+}
+
+
+#menu a:hover {
+    color: #BA2929;
+}
+
+#menu a:active {
+    color: green;
+}
+
+/* ==========================================================================
+   Splash
+   ========================================================================== */
+
+.splashContent h2 {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    color: white;
+    font-family: PoolParty;
+    font-size: 4.4em;
+    letter-spacing: 0.07em;
+    text-shadow: 10px 10px 8px #000000;
+}
+
+/* ==========================================================================
+   Recent Section
+   ========================================================================== */
+
+#recentHead {
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    color: #CC0066;
+    font-size: 5em;
+    font-family: BebasNeue;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+    -moz-text-decoration-color: white;
+}
+
+#recentHead2 {
+    position: absolute;
+    left: 3%;
+    top: 25%;
+    color: #CC6666;
+    font-size: 2em;
+    font-family: BebasNeue;
+    letter-spacing: 0.05em;
+}
+
+#recentContent {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#descBox {
+    position: absolute;
+    left: 3%;
+    top: 32%;
+    height: 34%;
+    width: 28%;
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.3em;
+    padding-top: 1.2em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border-left: 0.2em solid white;
+}
+
+#recentVid img {
+    position: absolute;
+    top : 28%;
+    left: 32%;
+    width: 40%;
+    height: 50%;
+}
+
+/* ==========================================================================
+   Video Reel Section
+   ========================================================================== */
+#videoHead {
+    position: absolute;
+    left: 4%;
+    top: 2.8%;
+    font-size: 5em;
+    font-family: BebasNeue;
+    color: #9999FF;
+    letter-spacing: 0.05em;
+    z-index: 2;
+    text-decoration: underline;
+    -moz-text-decoration-color: white;
+}
+
+
+#videoHead2 {
+    position: absolute;
+    left: 8%;
+    top: 12.5%;
+    color: #99CCFF;
+    font-size: 2em;
+    font-family: BebasNeue;
+    letter-spacing: 0.05em;
+    z-index: 2;
+}
+
+#videoContent {
+    position: absolute;
+    left: 2%;
+    top: 12.5%;
+    width: 70%;
+    height: 75%;
+    border-collapse: separate;
+    border-spacing: 10%;
+    background-color: #101010;
+    padding-left: 2%;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+#videoContent img {
+    width: 90%;
+    height: 90%;
+    box-shadow: 12px 12px 8px #000005;
+}
+
+
+/* ==========================================================================
+   About Me Section
+   ========================================================================== */
+
+#aboutHead {
+    position: absolute;
+    left: 32%;
+    top: 11%;
+    color: #0099FF;
+    font-size: 5em;
+    font-family: BebasNeue;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+    z-index: 2;
+    -moz-text-decoration-color: white;
+}
+
+#aboutHead2 {
+    position: absolute;
+    left: 36%;
+    top: 21%;
+    color: #00CCFF;
+    font-size: 2em;
+    font-family: BebasNeue;
+    letter-spacing: 0.05em;
+}
+
+#aboutContent {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+#textBox {
+    position: absolute;
+    top : 30%;
+    left: 3.3%;
+    height: 39%;
+    width: 28%;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    color: white;
+    padding-left: 1.4em;
+    padding-right: 1em;
+    padding-bottom: 0.8em;
+    background-color: #111111;
+}
+
+#picBox img {
+    position: absolute;
+    top : 30%;
+    left: 36%;
+    width: 35%;
+    height: 45%;
+}
+
+ul#contactBox {
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    top: 63%;
+    left: 3.5%;
+    line-height: 1em;
+    font-size: 1.9em;
+    list-style: none;
+    padding: 1.5em;
+}
+
+li.contactButton {
+    display: inline;
+}
+
+#contactBox a {
+    text-decoration: none;
+}
+
+li.contactButton:nth-child(1) a {
+    color: #CC6666;
+}
+
+li.contactButton a:nth-child(2) {
+    color: #FF9966;
+}
+
+li.contactButton a:nth-child(3) {
+    color: #0099FF;
+}
+
+li.contactButton a:nth-child(4) {
+    color: #9999FF;
+}
+
+/* ==========================================================================
+   Images
+   ========================================================================== */
+
+#d1 .ree {
+    width: 100%;
+    background-image:url('../img/city.gif')
+}
+
+#d2 .ree {background-color: #000000}
+
+#d3 .ree {background-color: #000000}
+
+#d4 .ree {background-color: #000000}
+
+/* ==========================================================================
+   Font 
+   ========================================================================== */
+
+@font-face{
+    font-family: "PoolParty";
+    src: url('../fonts/PoolParty.ttf'),
+    url('Thonburi-Bold.eot'); /* IE */
+}
+
+@font-face{
+    font-family: "BebasNeue";
+    src: url('../fonts/BebasNeue.otf'),
+    url('Thonburi-Bold.eot'); /* IE */
+}
+
+/* ==========================================================================
+   Smooth
+   ========================================================================== */
+
+body, html {
+	height: 100%;
+	min-height: 100%;
+	background-color: #000000;
+}
+body {
+	
+}
+.no-js {
+	padding-top: 106;
+}
+.loading {
+	background: url('../img/ico_loading.gif') no-repeat center center;
+}
+section {
+	min-width: 120%;
+	opacity: 0;
+}
+.loaded section,
+.no-js section {
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
+}
+main {
+	overflow-x: hidden;
+}
+#preload {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ree {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.smoothContainer {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+ * RESPONSIVE!
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+@media all and (min-width: 400px) {
+    .resize {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .resize {
+        font-size: 32px;
+    }
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
