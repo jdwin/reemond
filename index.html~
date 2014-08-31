@@ -20,17 +20,17 @@
 
 	    <!-- Menu -->
         <div id="menu">
-	        <ul id="menu-options">
-		        <li class="home">
+	        <ul id="menuOptions">
+		        <li class="menuButton">
 		        <a href="#d1">_____</a>
 		        </li>
-		        <li class="recent">
+		        <li class="menuButton">
 		        <a href="#d2">Recent</a>
 		        </li>
-		        <li class="video">
+		        <li class="menuButton">
 		        <a href="#d3">Video</a>
 		        </li>
-		        <li class="about">
+		        <li class="menuButton">
 		        <a href="#d4">About</a>
 		        </li>
 		    </ul>
