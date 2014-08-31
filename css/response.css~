@@ -1,4 +1,13 @@
 body {
-    font-size: 50%;
-    clear: both;
+}
+
+#menu {
+    position: fixed !important;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+}
+
+li.menuButton {
+    display: inline;
 }
