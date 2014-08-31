@@ -148,7 +148,7 @@ h2.videoHead {
     top: 10%;
     left: 15%;
     z-index: 2;
-    color: #99CCFF;
+    color: #6699CC;
     font-size: 2em;
     font-family: BebasNeue;
     letter-spacing: 0.05em;
@@ -203,7 +203,7 @@ h2.aboutHead {
     position: absolute;
     left: 43.5%;
     top: 15%;
-    color: #00FFFF;
+    color: #99CCFF;
     font-size: 2em;
     font-family: BebasNeue;
     letter-spacing: 0.05em;
