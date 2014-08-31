@@ -13,6 +13,6 @@ li.menuButton {
     display: inline;
 }
 
-#menuOptions:nth-child(1) {
+#menuOptions:nth-child(1) li {
     display: none;
 }
