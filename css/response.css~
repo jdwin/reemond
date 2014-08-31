@@ -9,5 +9,6 @@ body {
 }
 
 li.menuButton {
+    font-size: 3em;
     display: inline;
 }
