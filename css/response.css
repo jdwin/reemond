@@ -12,3 +12,7 @@ li.menuButton {
     font-size: 2em;
     display: inline;
 }
+
+#menuOptions:nth-child(1) {
+    display: none;
+}
