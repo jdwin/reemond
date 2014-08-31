@@ -21,16 +21,16 @@
 	    <!-- Menu -->
         <div id="menu">
 	        <ul id="menuOptions">
-		        <li class="menuButton">
+		        <li>
 		        <a href="#d1">_____</a>
 		        </li>
-		        <li class="menuButton">
+		        <li>
 		        <a href="#d2">Recent</a>
 		        </li>
-		        <li class="menuButton">
+		        <li>
 		        <a href="#d3">Video</a>
 		        </li>
-		        <li class="menuButton">
+		        <li>
 		        <a href="#d4">About</a>
 		        </li>
 		    </ul>

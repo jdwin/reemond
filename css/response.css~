@@ -3,16 +3,37 @@ body {
 
 #menu {
     position: fixed !important;
-    top: 0%;
-    left: 0%;
+    width: 100%;
+    top: -3.5%;
     z-index: 10;
 }
 
 li.menuButton {
     font-size: 2em;
     display: inline;
+    background-color: #000000;
 }
 
-#menuOptions:nth-child(1) {
+li.menuButton:nth-child(1) {
+    display: none;
+}
+
+#descBox {
+    display: none;
+}
+
+#recentVid img {
+    width: 100%;
+    left: 0%;
+}
+
+
+#textBox {
+    position: relative;
+    left: 0%;
+    height:50%;
+    width:90%;
+}
+#picBox img {
     display: none;
 }
