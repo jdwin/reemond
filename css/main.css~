@@ -12,14 +12,13 @@
    Menu
    ========================================================================== */
 
-#menu ul {
+#menu {
     position: fixed !important;
     right: 5%;
     line-height: 1.5em;
     top: 30%;
     font-size: 2.6em;
     z-index: 100;
-    list-style: none;
 }
 
 li.menuButton:nth-child(1) a {

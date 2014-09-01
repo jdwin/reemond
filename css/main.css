@@ -12,7 +12,7 @@
    Menu
    ========================================================================== */
 
-#menu ul {
+#menu {
     position: fixed !important;
     right: 5%;
     line-height: 1.5em;
