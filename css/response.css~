@@ -6,6 +6,7 @@ body {
     width: 100%;
     top: -3.5%;
     z-index: 10;
+    opacity: 0;
 }
 
 li.menuButton {
@@ -27,13 +28,13 @@ li.menuButton:nth-child(1) {
     left: 0%;
 }
 
-
 #textBox {
     position: relative;
     left: 0%;
     height:50%;
     width:90%;
 }
+
 #picBox img {
     display: none;
 }
