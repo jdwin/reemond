@@ -16,13 +16,9 @@
     position: fixed !important;
     right: 5%;
     line-height: 1.5em;
-    top: 30%;
+    top: 35%;
     font-size: 2.6em;
     z-index: 100;
-}
-
-li.menuButton:nth-child(1) a {
-    color: white;
 }
 
 li.menuButton a {

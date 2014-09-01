@@ -21,10 +21,6 @@
     z-index: 100;
 }
 
-li.menuButton:nth-child(1) a {
-    color: white;
-}
-
 li.menuButton a {
     text-decoration: none;
     font-family: BebasNeue;
