@@ -166,6 +166,23 @@ h2.recentHead {
     width: auto;
 }
 
+.text {
+    position: absolute;
+    opacity: 0;
+    text-size: 2em;
+}
+
+
+#videoContent:hover .overlay {
+    opacity: 0.5;
+}
+
+#videoContent:hover .text {
+    opacity: 1;
+    text-align: center;
+    margin: auto;
+}
+
 
 /* ==========================================================================
    About Me Section

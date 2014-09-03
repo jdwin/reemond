@@ -149,6 +149,7 @@ h2.recentHead {
    ========================================================================== */
 
 #videoContent {
+    position: absolute;
     top: 15%;
     -moz-column-count: 3;
     -moz-column-gap: 0.1em;
@@ -163,6 +164,23 @@ h2.recentHead {
     max-width: 100%;
     height: auto;
     width: auto;
+}
+
+.text {
+    position: absolute;
+    opacity: 0;
+    text-size: 2em;
+    margin: auto;
+}
+
+
+#videoContent:hover .overlay {
+    opacity: 0.5;
+}
+
+#videoContent:hover .text {
+    opacity: 1;
+    text-align: center;
 }
 
 
