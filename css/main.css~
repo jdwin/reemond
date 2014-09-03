@@ -16,9 +16,10 @@
     position: fixed !important;
     right: 5%;
     line-height: 1.5em;
-    top: 30%;
+    top: 35%;
     font-size: 2.6em;
     z-index: 100;
+    clear: both;
 }
 
 li.menuButton a {
@@ -46,6 +47,7 @@ li.menuButton a:hover {
     opacity: 0;
     word-spacing: 2em;
     display: inline-block;
+    clear: both;
 }
 
 ul#menuOptions2 li {
@@ -104,6 +106,7 @@ h1.recentHead {
     letter-spacing: 0.05em;
     text-decoration: underline;
     -moz-text-decoration-color: white;
+    clear: both;
 }
 
 h2.recentHead {
@@ -114,16 +117,17 @@ h2.recentHead {
     font-size: 2em;
     font-family: BebasNeue;
     letter-spacing: 0.04em;
+    clear: both;
 }
 
 
 #descBox {
     position: absolute;
     left: 3%;
-    top: 32%;
+    top: 36%;
     height: 34%;
     width: 28%;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: white;
     line-height: 1.3em;
     padding-top: 1.2em;
@@ -145,53 +149,20 @@ h2.recentHead {
    ========================================================================== */
 
 #videoContent {
-    position: relative;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
+    top: 15%;
+    -moz-column-count: 3;
+    -moz-column-gap: 0.1em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0.1em;
+    column-count: 3;
+    column-gap: 0.1em;
+    overflow: hidden;
 }
 
-h1.videoHead {
-    position: absolute;
-    top: 1%;
-    left: 5%;
-    font-size: 5em;
-    font-family: BebasNeue;
-    color: #9999FF;
-    letter-spacing: 0.05em;
-    text-decoration: underline;
-    -moz-text-decoration-color: white;
-    z-index: 999;
-}
-
-
-h2.videoHead {
-    position: absolute;
-    top: 14%;
-    left: 15%;
-    z-index: 2;
-    color: #6699CC;
-    font-size: 2em;
-    font-family: BebasNeue;
-    letter-spacing: 0.05em;
-}
-
-#videoReel {
-    position: absolute;
-    left: 0%;
-    top: 19%;
-    width: 99%;
-    height: 75%;
-    border-collapse: separate;
-    border-spacing: 10%;
-    z-index: 1;
-}
-
-#videoReel img {
-    width: 100%;
-    height: 100%;
-    box-shadow: 12px 12px 8px #000005;
+#videoContent img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
 
 
@@ -236,7 +207,7 @@ h2.aboutHead {
     left: 6%;
     height: 39%;
     width: 30%;
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 1.3em;
     color: white;
     padding-left: 1.4em;
@@ -244,6 +215,9 @@ h2.aboutHead {
     padding-bottom: 0.8em;
     border-right: 0.1em solid white;
     border-left: 0.1em solid white;
+    text-align: center;
+    font-family: "Open Sans";
+    clear: both;
 }
 
 #picBox img {
@@ -263,6 +237,7 @@ ul#contactBox {
     line-height: 1em;
     font-size: 1.9em;
     list-style: none;
+    clear: both;
 }
 
 li.contactButton {
@@ -296,7 +271,6 @@ li.contactButton:nth-child(4) a {
 #d1 .ree {background-color: #000000}
 
 #d2 .ree {background-color: #000000}
-
 #d3 .ree {background-color: #000000}
 
 #d4 .ree {background-color: #000000}
@@ -323,9 +297,16 @@ li.contactButton:nth-child(4) a {
 
 body, html {
 	height: 100%;
-	min-height: 100%;
 	background-color: #000000;
+    font-family: arial;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+    
 
 .no-js {
 	padding-top: 106;

@@ -9,7 +9,7 @@ $(function() {
 
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
-        if(scrollTop != 0)
+        if(scrollTop >= 9)
             $('#menu2').stop().animate({'opacity':'1'});
         else
             $('#menu2').stop().animate({'opacity':'0'});
