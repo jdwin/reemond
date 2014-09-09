@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     // Reel One
     $('#videoReel1').bind('mouseenter', function() {
-        $('#videoReel1 img').animate({"opacity":0.3});
+        $('#videoReel1 img').animate({"opacity":0.2});
         $('#videoReel1 .overlay').animate({"opacity":1});
     });
     $('#videoReel1').bind('mouseleave', function() {
@@ -24,7 +24,7 @@ $(document).ready(function() {
     });
     $(function() {
         $(".overlay").width($("#videoReel2 img").width());
-    })
+    });
 
     $('#videoReel3').bind('mouseenter', function() {
         $('#videoReel3 img').animate({"opacity":0.3});
