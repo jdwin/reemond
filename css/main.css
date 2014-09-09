@@ -180,7 +180,6 @@ h2.recentHead {
 }
 
 p.overlay {
-    display: table-cell;
     color: white;
     max-width: 100%;
     text-align: center;

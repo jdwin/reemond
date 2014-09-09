@@ -180,13 +180,12 @@ h2.recentHead {
 }
 
 p.overlay {
-    display: table-cell;
     color: white;
     max-width: 100%;
     text-align: center;
     vertical-align: middle;
-    font-size: 1em;
-    padding: 0.2em;
+    font-size: 1rem;
+    padding: 0.3em;
     word-wrap: break-word;
 }
 
