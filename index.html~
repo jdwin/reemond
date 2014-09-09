@@ -93,41 +93,38 @@
 		    <div class="ree">
 		        <div class="smoothContainer">
                     <div id="videoContent">
-                        <ul class="videoReel" style="margin: 0 auto; padding: 0;">
-                            <li class="videoReel1">
-                                <img id="overlay" src="http://i.vimeocdn.com/video/475287645_960.jpg" alt="van"/>
-                                <div class="contenthover">
-                                    <h3>cat</h3>
-                                    <p>dog</p>
-                                </div>
-                            </li>
-                            <li class="videoReel2">
-                                <div class="overlay">sdlkfsldf</div>
-                                <a href="http://vimeo.com/76673177">
-                                <img src="http://i.vimeocdn.com/video/451580457_960.jpg" alt="aiweiwei" />
-                                </a>
-                            </li>
-                            <li class="videoReel">
-                                <a href="http://vimeo.com/30788720">
-                                <img src="http://i.vimeocdn.com/video/207054005_960.jpg" alt="torontotempo" />
-                                </a>
-                            </li>
-                            <li class="videoReel">
-                                <a href="http://vimeo.com/65810806">
-                                <img src="http://i.vimeocdn.com/video/460187380_960.jpg" alt="nirvana"/>
-                                </a>
-                            </li>
-                            <li class="videoReel">
-                                <a href="http://vimeo.com/53072482">
-                                <img src="http://i.vimeocdn.com/video/366454587_960.jpg" alt="planettoronto"/>
-                                </a>
-                            </li>
-                            <li class="videoReel">
-                                <a href="http://vimeo.com/45660425">
-                                <img src="http://i.vimeocdn.com/video/460187144_960.jpg" alt="momentschina"/>
-                                </a>
-                            </li>
-                        </ul>
+                        <div id="videoReel1">
+                            <p class="overlay">sskljdfhkjlsdhflkjdhgkjdhfklgjhslkdjfhglkdshfglkjdhfgklhdskljfhgkldsjhfgkljhdfsdfkjhsdkhjfskljdfhklshfsdf</p>
+                            <a href="http://vimeo.com/95384593">
+                            <img src="http://i.vimeocdn.com/video/475287645_960.jpg" alt="van"/>
+                            </a>
+                        </div>
+                        <div id="videoReel2">
+                            <p class="overlay">sdlkfsldf</p>
+                            <a href="http://vimeo.com/76673177">
+                            <img src="http://i.vimeocdn.com/video/451580457_960.jpg" alt="aiweiwei" />
+                            </a>
+                        </div>
+                        <div id="videoReel3">
+                            <a href="http://vimeo.com/30788720">
+                            <img src="http://i.vimeocdn.com/video/207054005_960.jpg" alt="torontotempo" />
+                            </a>
+                        </div>
+                        <div id="videoReel4">
+                            <a href="http://vimeo.com/65810806">
+                            <img src="http://i.vimeocdn.com/video/460187380_960.jpg" alt="nirvana"/>
+                            </a>
+                        </div>
+                        <div id="videoReel5">
+                            <a href="http://vimeo.com/53072482">
+                            <img src="http://i.vimeocdn.com/video/366454587_960.jpg" alt="planettoronto"/>
+                            </a>
+                        </div>
+                        <div id="videoReel6">
+                            <a href="http://vimeo.com/45660425">
+                            <img src="http://i.vimeocdn.com/video/460187144_960.jpg" alt="momentschina"/>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,18 +176,10 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/contentHover.js"></script>
         <script src="js/imagesloaded.js"></script>
         <script src="js/skrollr.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/fade.js"></script>
-        <script src="js/scroll.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $("#overlay").contenthover( {
-                    overlay_background: "#000000",
-                    overlay_opacity: 0.8
-                });
-        </script>
+        <script src="js/menufade.js"></script>
+        <script src="js/overlay.js"></script>
     </body>
 </html>
