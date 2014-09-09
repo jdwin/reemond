@@ -9,9 +9,6 @@ $(document).ready(function() {
         $('#videoReel1 img').animate({"opacity":1});
         $('#videoReel1 .overlay').animate({"opacity":0.1});
     });
-    $(function() {
-        $(".overlay").width($("#videoReel1 img").width());
-    });
 
     // Reel Two ------------------------------------------
     $('#videoReel2').bind('mouseenter', function() {
@@ -24,6 +21,7 @@ $(document).ready(function() {
     });
     $(function() {
         $(".overlay").width($("#videoReel2 img").width());
+        $(".overlay").height($("#videoReel2 img").height());
     });
 
     // Reel Three -----------------------------------------
@@ -37,6 +35,7 @@ $(document).ready(function() {
     });
     $(function() {
         $(".overlay").width($("#videoReel3 img").width());
+        $(".overlay").height($("#videoReel3 img").height());
     });
 
     // Reel Four -----------------------------------------
@@ -66,10 +65,6 @@ $(document).ready(function() {
     });
 
     // Reel Six ------------------------------------------
-    $(function() {
-        $(".overlay").width($("#videoReel6 img").width());
-    });
-
     $('#videoReel6').bind('mouseenter', function() {
         $('#videoReel6 img').animate({"opacity":0.2});
         $('#videoReel6 .overlay').animate({"opacity":1});
@@ -78,4 +73,8 @@ $(document).ready(function() {
         $('#videoReel6 img').animate({"opacity":1});
         $('#videoReel6 .overlay').animate({"opacity":0});
     });
+    $(function() {
+        $(".overlay").width($("#videoReel6 img").width());
+    });
+
 });
