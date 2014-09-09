@@ -1,6 +1,5 @@
 ( function( $ ) {
 	
-	// Setup variables
 	$window = $(window);
 	$slide = $('.smoothSlide');
 	$body = $('body');
@@ -21,11 +20,8 @@
 	function adjustWindow(){
 		
 		// Init Skrollr
-		var s = skrollr.init({
-		    render: function(data) {
-		        //Debugging;
-		    }
-		});
+		var s = skrollr.init();
+		
 		
 		// Get window size
 	    winH = $window.height();
@@ -37,6 +33,8 @@
 	    
 	    // Resize our slides
 	    $slide.height(winH);
+
+        s.refresh($('.smoothSlide'));
 	    
 	}
 		
