@@ -7,7 +7,7 @@ $(document).ready(function() {
     });
     $('#videoReel1').bind('mouseleave', function() {
         $('#videoReel1 img').animate({"opacity":1});
-        $('#videoReel1 .overlay').animate({"opacity":0.1});
+        $('#videoReel1 .overlay').animate({"opacity":0});
     });
     $(function() {
         $(".overlay").width($("#videoReel1 img").width());

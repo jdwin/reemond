@@ -155,40 +155,39 @@ h2.recentHead {
     position: absolute;
     top: 15%;
     left: 0%;
-    width: auto;
-    height: auto;
+    max-width: 100%;
+    width: 100%;
     font-size: auto;
     overflow: hidden;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
+    -webkit-column-gap: 4px;
+    -moz-column-gap: 4px;
+    column-gap: 4px;
 }
 
 #videoContent img {
     position: relative;
     max-width: 100%;
     width: 100%;
-    height: auto;
-    overflow:hidden;
+    height: 100%;
 }
 
 #vidContainer {
     position: relative;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: center;
 }
 
 #videoContent .overlay {
     position: absolute;
-    overflow: hidden;
-}
-
-#videoContent p.overlay {
-    overflow: hidden;
-    position: absolute;
     color: white;
     text-align: center;
-    vertical-align: center;
-    line-height: 1.5em;
+    line-height: 1.3em;
 }
+
 
 /* ==========================================================================
    About Me Section
@@ -325,8 +324,6 @@ body, html {
 	height: 100%;
 	background-color: #000000;
     font-family: arial;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
