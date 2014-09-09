@@ -154,6 +154,10 @@ h2.recentHead {
 #videoContent {
     position: absolute;
     top: 15%;
+    left: 0%;
+    width: auto;
+    height: auto;
+    font-size: auto;
     overflow: hidden;
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -168,10 +172,11 @@ h2.recentHead {
 
 #videoContent img {
     position: relative;
-    max-width: 99%;
-    height: 99%;
-    width: 99%;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
     overflow:hidden;
+    border: 1px solid white;
 }
 
 #vidContainer {
@@ -180,12 +185,16 @@ h2.recentHead {
 
 #videoContent .overlay {
     position: absolute;
+    overflow: hidden;
 }
 
 #videoContent p.overlay {
+    overflow: hidden;
+    position: absolute;
     color: white;
     text-align: center;
-    font-size: 0.8em;
+    vertical-align: center;
+    line-height: 1.5em;
 }
 
 /* ==========================================================================
