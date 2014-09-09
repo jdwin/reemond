@@ -94,13 +94,15 @@
 		        <div class="smoothContainer">
                     <div id="videoContent">
                         <ul class="videoReel" style="margin: 0 auto; padding: 0;">
-                            <li class="videoReel">
-                                <div class="overlay">sdfsdf</div>
-                                <a href="http://vimeo.com/95384593">
-                                <img src="http://i.vimeocdn.com/video/475287645_960.jpg" alt="van"/>
-                                </a>
+                            <li class="videoReel1">
+                                <img id="overlay" src="http://i.vimeocdn.com/video/475287645_960.jpg" alt="van"/>
+                                <div class="contenthover">
+                                    <h3>cat</h3>
+                                    <p>dog</p>
+                                </div>
                             </li>
-                            <li class="videoReel">
+                            <li class="videoReel2">
+                                <div class="overlay">sdlkfsldf</div>
                                 <a href="http://vimeo.com/76673177">
                                 <img src="http://i.vimeocdn.com/video/451580457_960.jpg" alt="aiweiwei" />
                                 </a>
@@ -151,16 +153,16 @@
 				        </div>
                     <ul id="contactBox">
                         <li class="contactButton">
-                            <a href="http://vimeo.com/reemond"> Vimeo </a>
+                            <a href="http://vimeo.com/reemond">Vimeo</a>
                         </li>
                         <li class="contactButton">
-                            <a href="http://www.linkedin.com/pub/ryan-emond/a1/354/960"> LinkedIn </a>
+                            <a href="http://www.linkedin.com/pub/ryan-emond/a1/354/960">LinkedIn</a>
                         </li>
                         <li class="contactButton">
-                            <a href="https://www.facebook.com/ryan.emond.1"> Facebook </a>
+                            <a href="https://www.facebook.com/ryan.emond.1">Facebook</a>
                         </li>
                         <li class="contactButton">
-                            <a href="http://www.flickr.com/photos/reemond/"> Flickr </a>
+                            <a href="http://www.flickr.com/photos/reemond/">Flickr</a>
                         </li>
                         </ul>
 			            <div id="picBox">
@@ -177,10 +179,18 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/contentHover.js"></script>
         <script src="js/imagesloaded.js"></script>
         <script src="js/skrollr.js"></script>
         <script src="js/main.js"></script>
         <script src="js/fade.js"></script>
         <script src="js/scroll.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#overlay").contenthover( {
+                    overlay_background: "#000000",
+                    overlay_opacity: 0.8
+                });
+        </script>
     </body>
 </html>

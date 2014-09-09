@@ -171,13 +171,22 @@ h2.recentHead {
 #videoContent img {
     position: relative;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     width: 100%;
+}
+
+.overlay {
+    text-align: center;
 }
 
 .videoReel1 .overlay {
     position: absolute;
-    z-index: 10;
+    color: white;
+}
+
+.videoReel2 .overlay {
+    position: absolute;
+    color: red;
 }
 
 .hoverColour {
@@ -247,8 +256,9 @@ h2.aboutHead {
 }
 
 ul#contactBox {
+    text-align: center;
     position: absolute;
-    width: 50%;
+    width: 30%;
     height: 5%;
     top: 75%;
     left: 5%;
@@ -256,6 +266,7 @@ ul#contactBox {
     font-size: 1.9em;
     list-style: none;
     clear: both;
+    word-spacing: 0.5em;
 }
 
 li.contactButton {
@@ -293,6 +304,8 @@ li.contactButton:nth-child(4) a {
 
 #d4 .ree {background-color: #000000}
 
+
+
 /* ==========================================================================
    Font 
    ========================================================================== */
@@ -318,11 +331,14 @@ body, html {
 	background-color: #000000;
     font-family: arial;
     -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
 * {
     -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
 }
     
 
