@@ -24,17 +24,13 @@
 
 
     #videoContent {
-        -webkit-column-count: 0;
-        -moz-column-count: 0;
-        column-count: 0;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
         width: auto;
-        height: 20%;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        -webkit-overflow-scrolling: touch;
-        -moz-overflow-scrolling: touch;
-        overflow-scrolling: touch;
+        height: auto;
         white-space: nowrap;
+        overflow: hidden;
     }
 
     #videoContent a {
