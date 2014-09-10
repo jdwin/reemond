@@ -1,7 +1,6 @@
 @media (max-width: 960px) {
     body,
     main {
-    max-width: 760px;
     font-size: 10px;
     }
 
@@ -24,6 +23,7 @@
     }
 
     #videoContent {
+        display: table-cell;
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
@@ -35,6 +35,7 @@
         max-width: 100%;
         width: 100%;
         overflow: scroll;
+        height: auto;
     }
 
 
