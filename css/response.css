@@ -23,13 +23,20 @@
         display: none;
     }
 
-    #videoContent img {
+    #videoContent {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        display: inline;
         top: 0%;
         vertical-align:center;
-        display: list-item;
+        float: left;
+        clear: both;
         max-width: 100%;
         width: 100%;
+        overflow: scroll;
     }
+
 
     section#d2 {
         height: 0%;
