@@ -11,12 +11,25 @@
         display: inline-block;
         position: fixed;
         left: 0%;
+        right: 0%;
+        top: -1%;
+        margin: 0% auto;
+        text-align:center;
         width: 100%;
         height: auto;
     }
 
     #descBox {
         display: none;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    #videoContent {
+        display: block;
+        width: 100%;
     }
 }
 
