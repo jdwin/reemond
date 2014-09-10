@@ -29,7 +29,6 @@
         left: 0%;
     }
 
-
     #videoContent {
         -webkit-column-count: 2;
         -moz-column-count: 2;
@@ -44,17 +43,6 @@
     #videoContent a {
         display: inline-block;
         vertical-align: middle;
-    }
-
-    #videoContent img {
-        height: 100%;
-        border: 0;
-    }
-
-
-    #d2 {
-        height: 0%;
-        visibility: hidden;
     }
 
     #textBox {
