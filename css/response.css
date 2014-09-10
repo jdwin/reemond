@@ -24,12 +24,14 @@
     }
 
     #videoContent img {
+        top: 0%;
+        vertical-align:center;
         display: list-item;
         max-width: 100%;
         width: 100%;
     }
 
-    #d2 .smoothContainer {
+    section#d2 {
         height: 0%;
         visibility: hidden;
     }
