@@ -28,7 +28,7 @@
     }
 
     #videoContent {
-        display: inline-block;
+        display: list-item;
         width: 100%;
     }
 }
