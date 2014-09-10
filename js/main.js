@@ -1,17 +1,15 @@
 ( function( $ ) {
-	
+
+    //SKROLLR	
 	$window = $(window);
 	$slide = $('.smoothSlide');
 	$body = $('body');
 	
-    //FadeIn all sections   
 	$body.imagesLoaded( function() {
 		setTimeout(function() {
 		      
-		      // Resize sections
 		      adjustWindow();
 		      
-		      // Fade in sections
 			  $body.removeClass('loading').addClass('loaded');
 			  
 		}, 800);
@@ -37,5 +35,5 @@
         s.refresh($('.smoothSlide'));
 	    
 	}
-		
+
 } )( jQuery );

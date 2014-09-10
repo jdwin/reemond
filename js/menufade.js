@@ -14,4 +14,12 @@ $(function() {
         else
             $('#menu2').stop().animate({'opacity':'0'});
     });
+
+    $(window).scroll(function () {
+        var scrollTop = $(window).scrollTop();
+        if(scrollTop < 800)
+            $('#d4 .ree').animate({'opacity':'0'});
+        else
+            $('#d4 .ree').animate({'opacity':'1'}, {'duration':'300'});
+    });
 });

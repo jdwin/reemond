@@ -262,6 +262,7 @@ li.contactButton:nth-child(4) a {
 #d3 .ree {background-color: #000000}
 #d4 .ree {
     background-image: url('../img/contactme.jpg');
+    opacity: 0;
 }
 
 /* ==========================================================================
