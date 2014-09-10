@@ -33,6 +33,8 @@
 	    $slide.height(winH);
 
         s.refresh($('.smoothSlide'));
+
+        //Turn off Mobile
 	    
 	}
 

@@ -51,6 +51,7 @@ li.menuButton a:hover {
     word-spacing: 2rem;
     display: inline-block;
     clear: both;
+    opacity: 0;
 }
 
 ul#menuOptions2 li {
@@ -204,20 +205,20 @@ h2.recentHead {
 
 #textBox {
     position: absolute;
-    font-size: 1.2em;
-    top : 16%;
-    left: 2%;
-    height: 40%;
-    width: 30%;
-    line-height: 1.3rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    top : 14%;
+    left: 3%;
+    height: auto;
+    width: 25%;
+    line-height: 1.8rem;
     color: white;
-    padding-left: 1.4rem;
-    padding-right: 1rem;
-    padding-bottom: 0.8rem;
     text-align: center;
     font-family: "Open Sans";
     clear: both;
-    text-shadow: 1px 1px 4px #000000;
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
 }
 
 ul#contactBox {
@@ -260,10 +261,7 @@ li.contactButton:nth-child(4) a {
 #d1 .ree {background-color: #000000}
 #d2 .ree {background-color: #000000}
 #d3 .ree {background-color: #000000}
-#d4 .ree {
-    background-image: url('../img/contactme.jpg');
-    opacity: 0;
-}
+#d4 .ree {background-image: url('../img/contactme.jpg');}
 
 /* ==========================================================================
    Font 
@@ -327,6 +325,9 @@ section {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
