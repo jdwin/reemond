@@ -259,7 +259,7 @@ li.contactButton:nth-child(4) a {
    ========================================================================== */
 
 #d1 .ree {background-color: #000000}
-#d2 .ree {background-color: #000000}
+#d2 .ree {background-image: url('../img/van.jpg');}
 #d3 .ree {background-color: #000000}
 #d4 .ree {background-image: url('../img/contactme.jpg');}
 
