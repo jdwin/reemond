@@ -1,7 +1,13 @@
 @media (max-width: 960px) {
     body,
     main {
-    font-size: 10px;
+    font-size: 50%;
+    }
+
+    .smoothSlide {
+        width: auto;
+        height: auto;
+        position: relative;
     }
 
     .mobile {
@@ -13,13 +19,13 @@
     }
 
     .splashContent h2 {
-        font-size: 1rem;
+        font-size: 2rem;
         left: 40%;
     }
 
     #menu2 {a
         opacity: 1;
-        font-size: 1rem;
+        font-size: 1.5rem;
         left: 0%;
     }
 
@@ -52,18 +58,21 @@
     }
 
     #textBox {
-        left: 0%;
-        top: 0%;
-        width: 100%;
-        padding: 0;
+        left: 20%;
+        top: 30%;
+        width: 50%;
         border: none;
+        font-size: 1.1rem;
+        vertical-align: center;
     }
 
-    #contactBox {
-        top: 0%;
-        left: 0%;
-        position: relative;
+    ul#contactBox {
+        width: 50%;
+        left: 18%;
+        top: 65%;
+        font-size: 1.5rem;
+        vertical-align: center;
+        word-spacing: 2rem;
         clear: both;
-        width: 100%;
 }
 
