@@ -1,19 +1,22 @@
 @media (max-width: 960px) {
     body,
     main {
-    max-width: 960px;
+    max-width: 760px;
     font-size: 10px;
     }
-    .recentHead {
+
+    .mobile {
         display: none;
     }
 
-    #menu {
-        height: 0px;
+    .splashContent h2 {
+        font-size: 1rem;
+        left: 40%;
     }
 
-    #descBox {
-        display: none;
+    #menu2 {
+        font-size: 1rem;
+        left: 0%;
     }
 
     .overlay {
@@ -22,12 +25,28 @@
 
     #videoContent img {
         display: list-item;
+        max-width: 100%;
         width: 100%;
     }
 
-    #d2 {
-        height: 0px;
+    #d2 .smoothContainer {
+        height: 0%;
         visibility: hidden;
     }
+
+    #textBox {
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+
+    #contactBox {
+        top: 0%;
+        left: 0%;
+        position: relative;
+        clear: both;
+        width: 100%;
 }
 

@@ -334,10 +334,6 @@ html, main {
 }
     
 
-.no-js {
-	padding-top: 106;
-}
-
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;
 }
