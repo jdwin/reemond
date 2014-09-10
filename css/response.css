@@ -17,7 +17,8 @@
         left: 40%;
     }
 
-    #menu {
+    #menu2 {a
+        opacity: 1;
         font-size: 1rem;
         left: 0%;
     }
@@ -27,6 +28,7 @@
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
+        top: 9%;
         width: auto;
         height: auto;
         white-space: nowrap;
