@@ -9,16 +9,7 @@
     }
 
     #menu {
-        display: inline-block;
-        font-size: 1rem;
-        position: fixed;
-        left: 0%;
-        right: 0%;
-        top: -1%;
-        margin: 0% auto;
-        text-align:center;
-        width: 100%;
-        height: auto;
+        height: 0px;
     }
 
     #descBox {
@@ -34,7 +25,7 @@
         width: 100%;
     }
 
-    #recentContent {
+    #d2 {
         height: 0px;
         visibility: hidden;
     }
