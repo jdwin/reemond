@@ -8,38 +8,44 @@
         display: none;
     }
 
+    .overlay {
+        display: none;
+    }
+
     .splashContent h2 {
         font-size: 1rem;
         left: 40%;
     }
 
-    #menu2 {
+    #menu {
         font-size: 1rem;
         left: 0%;
     }
 
-    .overlay {
-        display: none;
-    }
 
     #videoContent {
-        display: table-cell;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        display: inline;
-        top: 0%;
-        vertical-align:center;
-        float: left;
-        clear: both;
-        max-width: 100%;
-        width: 100%;
-        overflow: scroll;
-        height: auto;
+        -webkit-column-count: 0;
+        -moz-column-count: 0;
+        column-count: 0;
+        width: auto;
+        height: 20%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    #videoContent a {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #videoContent img {
+        height: 100%;
+        border: 0;
     }
 
 
-    section#d2 {
+    #d2 {
         height: 0%;
         visibility: hidden;
     }
