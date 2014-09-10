@@ -202,53 +202,22 @@ h2.recentHead {
     height: 100%;
 }
 
-h1.aboutHead {
-    position: absolute;
-    left: 41%;
-    top: 4%;
-    color: #0099FF;
-    font-size: 5rem;
-    font-family: BebasNeue;
-    letter-spacing: 0.05rem;
-    text-decoration: underline;
-    -moz-text-decoration-color: white;
-}
-
-h2.aboutHead {
-    position: absolute;
-    left: 45%;
-    top: 18%;
-    color: #99CCFF;
-    font-size: 2rem;
-    font-family: BebasNeue;
-    letter-spacing: 0.05rem;
-}
-
-
 #textBox {
     position: absolute;
-    top : 35%;
-    left: 6%;
-    height: 39%;
+    font-size: 1.2em;
+    top : 16%;
+    left: 2%;
+    height: 40%;
     width: 30%;
     line-height: 1.3rem;
     color: white;
     padding-left: 1.4rem;
     padding-right: 1rem;
     padding-bottom: 0.8rem;
-    border-right: 0.1em solid white;
-    border-left: 0.1em solid white;
     text-align: center;
     font-family: "Open Sans";
     clear: both;
-}
-
-#picBox img {
-    position: absolute;
-    top : 30%;
-    left: 45%;
-    width: 50%;
-    height: 50%;
+    text-shadow: 1px 1px 4px #000000;
 }
 
 ul#contactBox {
@@ -256,17 +225,12 @@ ul#contactBox {
     position: absolute;
     width: 30%;
     height: 5%;
-    top: 75%;
-    left: 5%;
-    line-height: 1rem;
-    font-size: 1rem;
+    top: 16%;
+    left: 75%;
+    line-height: 3rem;
+    font-size: 2rem;
     list-style: none;
     clear: both;
-    word-spacing: 0.5rem;
-}
-
-li.contactButton {
-    display: inline;
 }
 
 #contactBox a {
@@ -296,9 +260,9 @@ li.contactButton:nth-child(4) a {
 #d1 .ree {background-color: #000000}
 #d2 .ree {background-color: #000000}
 #d3 .ree {background-color: #000000}
-#d4 .ree {background-color: #000000}
-
-
+#d4 .ree {
+    background-image: url('../img/contactme.jpg');
+}
 
 /* ==========================================================================
    Font 
@@ -331,10 +295,6 @@ html, main {
     -moz-font-smoothing: antialiased;
 }
     
-
-.no-js {
-	padding-top: 106;
-}
 
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;

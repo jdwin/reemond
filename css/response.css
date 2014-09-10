@@ -58,21 +58,23 @@
     }
 
     #textBox {
+        position: absolute;
         left: 20%;
         top: 30%;
         width: 50%;
         border: none;
         font-size: 1.1rem;
         vertical-align: center;
+        clear: both;
     }
 
     ul#contactBox {
+        position: relative;
         width: 50%;
         left: 18%;
         top: 65%;
         font-size: 1.5rem;
         vertical-align: center;
         word-spacing: 2rem;
-        clear: both;
 }
 
