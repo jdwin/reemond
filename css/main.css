@@ -301,9 +301,7 @@ html, main {
 }
 
 @media (max-width: 1050px) {
-    .overlay,
-    #textBox,
-    ul#contactBox  {font-size: 0.6rem; }
+    .overlay {font-size: 0.6rem; }
 }
 
 * {
@@ -355,7 +353,7 @@ section {
 .smoothContainer {
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
+	overflow: scroll;
 	position: relative;
     -webkit-overflow-scrolling: touch;
 }
