@@ -2,7 +2,7 @@
 
     //SKROLLR	
 	$window = $(window);
-	$slide = $('.smoothSlide');
+	$page = $('.smoothSlide');
 	$body = $('body');
 	
 	$body.imagesLoaded( function() {
@@ -29,13 +29,11 @@
 			winH = 550;
 		} 
 	    
-	    // Resize our slides
-	    $slide.height(winH);
+	    // Resize pages
+	    $page.height(winH);
 
         s.refresh($('.smoothSlide'));
 
-        //Turn off Mobile
-	    
 	}
 
 } )( jQuery );
