@@ -205,7 +205,7 @@ li.menuButton a:hover {
     text-align: center;
     font-family: "Open Sans";
     clear: both;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 25px;
     border-left: 0.2rem solid white;
@@ -214,34 +214,33 @@ li.menuButton a:hover {
 ul#contactBox {
     text-align: center;
     position: absolute;
-    width: 30%;
-    height: 5%;
-    top: 16%;
-    left: 75%;
-    line-height: 3rem;
-    font-size: 2rem;
+    top: 11%;
+    left: 70%;
     list-style: none;
-    clear: both;
 }
 
-#contactBox a {
-    text-decoration: none;
+li.contactButton {
+    margin: 0 0 1rem 0;
 }
 
-li.contactButton:nth-child(1) a {
-    color: #CC0066;
+li.contactButton:nth-child(1) img {
+    width: 35%;
+    height: auto;
 }
 
-li.contactButton:nth-child(2) a {
-    color: #FF9966;
+li.contactButton:nth-child(2) img {
+    width: 35%;
+    height: auto;
 }
 
-li.contactButton:nth-child(3) a {
-    color: #0099FF;
+li.contactButton:nth-child(3) img {
+    width: 38%;
+    height: auto;
 }
 
-li.contactButton:nth-child(4) a {
-    color: #9999FF;
+li.contactButton:nth-child(4) img {
+    width: 25%;
+    height: auto;
 }
 
 /* ==========================================================================
