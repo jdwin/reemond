@@ -48,7 +48,6 @@ $(document).ready(function() {
     $('#videoReel5').bind('mouseenter', function() {
         $('#videoReel5 img').animate({"opacity":0.1});
         $('#videoReel5 .overlay').animate({"opacity":1});
-        $(".overlay").width($("#videoReel5 img").width());
     });
     $('#videoReel5').bind('mouseleave', function() {
         $('#videoReel5 img').animate({"opacity":1});

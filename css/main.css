@@ -155,7 +155,9 @@ h2.recentHead {
     position: absolute;
     top: 15%;
     left: 0%;
+    max-width: 100%;
     width: 100%;
+    height: auto;
     overflow: hidden;
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -178,12 +180,12 @@ h2.recentHead {
 
 }
 
-#videoContent .overlay {
+.overlay {
     position: absolute;
     color: white;
     overflow: hidden;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 /* ==========================================================================
@@ -282,6 +284,21 @@ li.contactButton:nth-child(4) a {
 html, main {
 	background-color: #000000;
     font-family: arial;
+}
+
+@media (max-width: 1550px) {
+    .overlay,
+    #textBox {font-size: 0.8rem; }
+}
+
+@media (max-width: 1250px) {
+    .overlay,
+    #textBox {font-size: 0.7rem; }
+}
+
+@media (max-width: 1050px) {
+    .overlay,
+    #textBox  {font-size: 0.6rem; }
 }
 
 * {
