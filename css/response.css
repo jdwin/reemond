@@ -31,15 +31,13 @@
     }
 
     #videoContent {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
         top: 5%;
-        overflow: scroll;
     }
 
     #videoContent img {
-        display: inline-block;
         vertical-align: middle;
     }
 
