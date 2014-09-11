@@ -155,16 +155,13 @@ h2.recentHead {
     position: absolute;
     top: 15%;
     left: 0%;
-    max-width: 100%;
-    width: 100%;
-    font-size: auto;
     overflow: hidden;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
-    -webkit-column-gap: 4px;
-    -moz-column-gap: 4px;
-    column-gap: 4px;
+    -webkit-column-gap: 0.1rem;
+    -moz-column-gap: 0.1rem;
+    column-gap: 0.1rem;
 }
 
 #videoContent img {
@@ -177,19 +174,16 @@ h2.recentHead {
 
 #vidContainer {
     position: relative;
-    max-width: 100%;
-    width: 100%;
-    vertical-align: center;
+
 }
 
 #videoContent .overlay {
     position: absolute;
     color: white;
-    text-align: center;
-    line-height: 1.3rem;
     overflow: hidden;
+    text-align: center;
+    font-size: 0.9rem;
 }
-
 
 /* ==========================================================================
    About Me Section

@@ -36,7 +36,7 @@
         column-count: 2;
         top: 9%;
         width: auto;
-        height: auto;
+        height: 100%;
         white-space: nowrap;
         overflow: hidden;
     }
@@ -61,7 +61,7 @@
     }
 
     ul#contactBox {
-        position: relative;
+        position: absolute;
         float: left;
         width: 50%;
         left: 18%;
