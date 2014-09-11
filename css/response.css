@@ -1,4 +1,4 @@
-@media (max-width: 960px) {
+@media (max-width: 790px) {
     body,
     main {
     font-size: 50%;
@@ -37,7 +37,6 @@
         top: 9%;
         width: auto;
         height: 100%;
-        white-space: nowrap;
         overflow: hidden;
     }
 
