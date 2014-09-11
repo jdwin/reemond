@@ -159,6 +159,7 @@ h2.recentHead {
     width: 100%;
     height: auto;
     overflow: hidden;
+    vertical-align: top;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -288,17 +289,20 @@ html, main {
 
 @media (max-width: 1550px) {
     .overlay,
-    #textBox {font-size: 0.8rem; }
+    #textBox,
+    ul#contactBox {font-size: 0.8rem; }
 }
 
 @media (max-width: 1250px) {
     .overlay,
-    #textBox {font-size: 0.7rem; }
+    #textBox,
+    ul#contactBox {font-size: 0.7rem; }
 }
 
 @media (max-width: 1050px) {
     .overlay,
-    #textBox  {font-size: 0.6rem; }
+    #textBox,
+    ul#contactBox  {font-size: 0.6rem; }
 }
 
 * {
