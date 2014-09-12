@@ -3,10 +3,10 @@ $(function() {
     //Fade out initial menu
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
-        if(scrollTop < 400)
-            $('#menu').stop().animate({'opacity':'1'});
+        if(scrollTop < 230)
+            $('#menu').fadeIn('fast');
         else
-            $('#menu').stop().animate({'opacity':'0'});
+            $('#menu').fadeOut('fast');
     });
 
     //Fade in second menu
