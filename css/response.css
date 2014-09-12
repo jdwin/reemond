@@ -1,69 +1,123 @@
-@media (max-width: 960px) {
-    body,
-    main {
-    font-size: 50%;
-    }
+/*
+ *  Width 1600 
+ */
 
-    .smoothSlide {
-        width: auto;
-        height: auto;
-        position: relative;
-    }
+@media (max-width: 1601px) {
 
-    .mobile {
-        display: none;
-    }
-
-    .overlay {
-        display: none;
-    }
-
-    .splashContent h2 {
-        font-size: 2rem;
-        left: 40%;
-    }
-
-    #menu2 {
-        opacity: 1;
-        font-size: 1.5rem;
-        left: 0%;
-        text-align: left;
+    #descBox {
+        top: 30%;
+        width: 30%;
     }
 
     #videoContent {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-        top: 5%;
+        top: 22%;
     }
 
-    #videoContent img {
-        vertical-align: middle;
+    .overlay p {
+        font-size: 1rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        line-height: 1.1rem;
     }
 
     #textBox {
-        position: absolute;
-        left: 20%;
-        top: 15%;
-        width: 50%;
-        border: none;
-        font-size: 1rem;
-        vertical-align: center;
-        clear: both;
-        background-color: rgba(0, 0, 0, 0.5);
-        border: 1px solid rgba(0, 0, 0, 0.8);
-        float: left;
+        top: 11%;
+        width: 30%;
+    }
+}
+
+/*
+ *  Width 1280
+ */
+
+@media (max-width: 1281px) {
+
+    #menu {
+        font-size: 2rem;
+    }
+
+    .splashContent h2 {
+        font-size: 3rem;
+    }
+
+    #descBox {
+        top: 37%;
+        width: 32%;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    #videoContent {
+        top: 25%;
+    }
+
+    .overlay p {
+        font-size: 0.7rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        line-height: 1.1rem;
+    }
+
+    #textBox {
+        left: 0%;
+        top: 11%;
+        width: 35%;
+        height: auto;
     }
 
     ul#contactBox {
-        position: absolute;
-        float: left;
-        width: 50%;
-        left: 18%;
-        top: 73%;
-        font-size: 1.5rem;
-        vertical-align: center;
-        word-spacing: 2rem;
-        clear:both;
+        top: 13%;
+    }
+}
+
+
+/*
+ *  Width 1050 
+ */
+
+@media (max-width: 1051px) {
+
+    .splashContent h2 {
+        top: 40%;
+    }
+
+    #menu {
+        font-size: 2rem;
+    }
+
+    .splashContent h2 {
+        font-size: 3rem;
+    }
+
+    #descBox {
+        top: 30%;
+        width: 32%;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+    }
+
+    #videoContent {
+        top: 20%;
+    }
+
+    .overlay p {
+        font-size: 0.6rem;
+        margin: 0rem;
+        padding: 0rem;
+        line-height: 0.9rem;
+    }
+
+    #textBox {
+        font-size: 0.7rem;
+        top: 13%;
+        left: 0%;
+        width: 33%;
+        height: auto;
+        line-height: 1.6rem;
+    }
+
+    ul#contactBox {
+        top: 17%;
+    }
 }
 

@@ -143,7 +143,6 @@ li.menuButton a:hover {
     width: 100%;
     height: auto;
     overflow: hidden;
-    vertical-align: top;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -158,6 +157,7 @@ li.menuButton a:hover {
     width: 100%;
     height: auto;
     overflow:hidden;
+    vertical-align: middle;
 }
 
 #vidContainer {
@@ -246,7 +246,7 @@ li.contactButton:nth-child(4) img {
 
 #d1 .ree {background-image: url('../img/city.gif');}
 #d2 .ree {background-image: url('../img/van.jpg');}
-#d3 .ree {background-color: #000000}
+#d3 .ree {background-color: #000000;}
 #d4 .ree {background-image: url('../img/contactme.jpg');}
 
 /* ==========================================================================
@@ -274,40 +274,6 @@ html, main {
     font-family: arial;
     height: 100%;
     min-height: 100%;
-}
-
-@media (max-width: 1550px) {
-    .overlay p,
-    #descBox,
-    #textBox,
-    ul#contactBox {
-        font-size: 0.8rem;
-        margin: 0.5rem;
-        padding: 0.5rem;
-        line-height: 1.1rem;
-    }
-    
-}
-
-@media (max-width: 1250px) {
-    .overlay p,
-    #descBox,
-    #textBox,
-    ul#contactBox {
-        font-size: 0.7rem; 
-        margin: 0.5rem;
-        padding: 0.5rem;
-        line-height:1rem;
-    }
-}
-
-@media (max-width: 1050px) {
-    .overlay p {
-        font-size: 0.6rem; 
-        margin: 0.5rem;
-        padding: 0.5rem;
-        line-height: 1rem;
-    }
 }
 
 * {
