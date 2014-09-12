@@ -13,9 +13,9 @@ $(function() {
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
         if(scrollTop > 399)
-            $('#menu2').stop().animate({'opacity':'1'});
+            $('#menu2').animate({'opacity':'1'});
         else
-            $('#menu2').stop().animate({'opacity':'0'});
+            $('#menu2').animate({'opacity':'0'});
     });
 
     //Fade in background for last section
