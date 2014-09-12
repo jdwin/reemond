@@ -4,18 +4,18 @@ $(function() {
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
         if(scrollTop < 230)
-            $('#menu').fadeIn('fast');
+            $('#menu').stop().fadeIn('fast');
         else
-            $('#menu').fadeOut('fast');
+            $('#menu').stop().fadeOut('fast');
     });
 
     //Fade in second menu
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
         if(scrollTop > 399)
-            $('#menu2').animate({'opacity':'1'});
+            $('#menu2').stop().animate({'opacity':'1'});
         else
-            $('#menu2').animate({'opacity':'0'});
+            $('#menu2').stop().animate({'opacity':'0'});
     });
 
     //Fade in background for last section
