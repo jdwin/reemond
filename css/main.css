@@ -128,13 +128,15 @@ li.menuButton a:hover {
     clear: both;
 }
 
-#recentVid img {
+#recentLink video {
     position: absolute;
-    top : 23%;
-    left: 40%;
-    max-width: 50%;
-    width: 50%;
+    top : 25%;
+    left: 45%;
+    width: 45%;
     height: auto;
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
 }
 
 /* ==========================================================================
