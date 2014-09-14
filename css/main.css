@@ -85,6 +85,7 @@ li.menuButton a:hover {
     font-size: 4.4rem;
     letter-spacing: 0.07em;
     text-shadow: 10px 10px 8px #000000;
+    z-index: 100;
 }
 
 /* ==========================================================================
@@ -149,19 +150,23 @@ li.menuButton a:hover {
     -webkit-column-gap: 0.2rem;
     -moz-column-gap: 0.2rem;
     column-gap: 0.2rem;
+    -webkit-column-rule: auto;
+    -moz-column-rule: auto;
+    column-rule: auto;
 }
 
-#videoContent img {
+#vidContainer {
+    position: relative;
+}
+
+#vidContainer img {
     position: relative;
     max-width: 100%;
     width: 100%;
     height: auto;
     overflow:hidden;
+    display: inline-table;
     vertical-align: middle;
-}
-
-#vidContainer {
-    position: relative;
 }
 
 .overlay {
@@ -244,7 +249,6 @@ li.contactButton:nth-child(4) img {
    Images
    ========================================================================== */
 
-#d1 .ree {background-image: url('../img/city.gif');}
 #d2 .ree {background-image: url('../img/van.jpg');}
 #d3 .ree {background-color: #000000;}
 #d4 .ree {background-image: url('../img/contactme.jpg');}
