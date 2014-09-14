@@ -76,6 +76,10 @@ li.menuButton a:hover {
    Splash
    ========================================================================== */
 
+#splashVid {
+    width: 100%;
+}
+
 .splashContent h2 {
     position: absolute;
     top: 40%;
