@@ -20,7 +20,7 @@
     font-size: 3rem;
     z-index: 100;
     clear: both;
-    text-shadow: 5px 5px 5px #000000;
+    text-shadow: 5px 5px 8px #000000;
 }
 
 ul#menuOptions {
@@ -134,7 +134,7 @@ li.menuButton a:hover {
     left: 45%;
     width: 45%;
     height: auto;
-    border: 1px solid white;
+    border: 1px solid grey;
     margin: 0;
     padding: 0;
 }
