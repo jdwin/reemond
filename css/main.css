@@ -14,13 +14,13 @@
 
 #menu {
     position: fixed !important;
-    right: 5%;
+    right: 6%;
     line-height: 1.5em;
     top: 35%;
     font-size: 3rem;
     z-index: 100;
     clear: both;
-    text-shadow: 5px 5px 8px #000000;
+    text-shadow: 6px 6px 8px #000000;
 }
 
 ul#menuOptions {
@@ -84,12 +84,12 @@ li.menuButton a:hover {
 .splashContent h2 {
     position: absolute;
     top: 40%;
-    left: 8%;
+    left: 6%;
     color: white;
     font-family: PoolParty;
     font-size: 4.4rem;
     letter-spacing: 0.07em;
-    text-shadow: 10px 10px 8px #000000;
+    text-shadow: 6px 6px 8px #000000;
     z-index: 100;
 }
 
