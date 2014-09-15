@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var position = 1,
-        playlist = ['./vid/vancouverearth2.mp4', './vid/torontozoom2.mp4', './vid/vancouverglass2.mp4'],
+        playlist = ['./vid/vancouverearth2.mp4', './vid/torontozoomout2.mp4', './vid/torontozoom2.mp4', './vid/vancouverglass2.mp4', './vid/birdsforsite2.mp4'],
         video = document.getElementById('splashVid');
 
     video.addEventListener('ended', rotate_video, false);
@@ -13,7 +13,7 @@ $(document).ready(function() {
     }
 
     var position2 = 0,
-        playlist2 = ['./vid/vancouverbridge.webm'],
+        playlist2 = ['./vid/vancouverbridge2.mp4'],
     videoLink = document.getElementById('recentVid');
 
     videoLink.addEventListener('ended', rewind, false);
