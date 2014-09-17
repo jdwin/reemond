@@ -82,6 +82,11 @@ li.menuButton a:hover {
     height: 100%;
 }
 
+#splashVid {
+    width: 100%;
+    height: auto;
+}
+
 .splashContent h2 {
     position: absolute;
     top: 40%;
@@ -149,6 +154,7 @@ li.menuButton a:hover {
     position: absolute;
     top: 16%;
     left: -1.3%;
+    opacity: 0%;
 }
 
 ul.vidGrid {
@@ -185,6 +191,7 @@ ul.vidGrid.column3 li {
     overflow: hidden;
     width: 100%;
     height: 100%;
+    opacity: 0%;
 }
 
 .overlay p {
@@ -194,6 +201,7 @@ ul.vidGrid.column3 li {
     margin: 1rem;
     padding: 1rem;
     line-height: 1.5rem;
+    opacity: 0%;
 }
 
 /* ==========================================================================
