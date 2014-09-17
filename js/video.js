@@ -3,7 +3,7 @@
 $(document).ready(function() {
     var sequence = [0,1,2,3,4],
         count = 1,
-        playlist = ['./vid/vancouverearth.mp4',  './vid/torontozoomout.mp4', './vid/torontozoomout.mp4', './vid/vancouverglass.mp4', './vid/birdsforsite.mp4'],
+        playlist = ['./vid/vancouverearth.mp4',  './vid/torontozoomout.mp4', './vid/torontozoomout.mp4', './vid/vancouverglass.mp4', './vid/birds.mp4'],
         video = document.getElementById('splashVid');
 
     video.addEventListener('ended', random_video, false);
