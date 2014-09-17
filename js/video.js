@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var position = i,
+    var position = 1,
         playlist = ['./vid/vancouverearth2.mp4', './vid/torontozoomout2.mp4', './vid/torontozoom2.mp4', './vid/vancouverglass2.mp4', './vid/birdsforsite2.mp4'],
         video = document.getElementById('splashVid');
 
@@ -8,9 +8,8 @@ $(document).ready(function() {
     function rotate_video() {
         video.setAttribute('src', playlist[position]);
         video.load();
-        i = Math.floor((Math.random() * 5) + 1);
-        //position = Math.floor((Math.random() * 5) + 1);
-        position = i
+        position++;
+        if (position >= playlist.length) {position= 0;}
     }
 
     var position2 = 0,

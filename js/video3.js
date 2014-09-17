@@ -1,17 +1,23 @@
+//Random play order of splash videos
+
 $(document.ready(function() {
-    
-    $(window).scroll(function() { 
-    var scrollTop = $(window).scrollTop();
-        position = 1,
-        playlist = ['./vid/vancouverearth.mp4', './vid/torontozoom.mp4', './vid/vancouverglass.mp4'],
+        var count = 0,
+        sequence = [],
+        playlist = ['a','b','c','d','e']
+        //playlist = ['./vid/vancouverearth2.mp4',  './vid/torontozoomout2.mp4', './vid/torontozoomout2.mp4', './vid/vancouverglass2.mp4', './vid/birdsforsite2.mp4'],
         video = document.getElementById('splashVid');
 
-    video.addEventListener('ended', rotate_video, false);
-    
-    if(scrollTop < 230) {
-        function rotate_video() {
-        video.setAttribute('src', playlist[position]);
-        video.load();
-        position++;
-        if position >=playlist.length) {position = 0;}
+    function randomVideo() {
+        while (count < 5) {
+            var next = Math.floor((Math.random() * 5)),
+                duplicate = next.indexOf(sequence);
+            if (duplicate == -1) {
+                sequence += next;
+                count ++;
+            }
+        }
+        for (var i = 0; i <= 5; i++) {
+             console.log(playlist[i]);
+        }
     }
+});
