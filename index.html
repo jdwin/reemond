@@ -20,7 +20,7 @@
 
     </head>
 
-    <body class="loading">
+    <body>
        	
     <main>
 
@@ -61,7 +61,11 @@
 	    <!-- Splash Page -->
 
         <section id="d1" class="smoothSlide">
-            <div class="ree">
+            <div class="ree"
+                data-top-center="opacity: 0.1"
+                data-top-top="opacity: 1"
+                data-anchor-target="#d1"
+            >
 		        <div class="smoothContainer">
                     <div class="splashContent">
 				        <h2>reeMond</h2>
@@ -77,15 +81,14 @@
 		<section id="d2" class="smoothSlide">
 		    <div class="ree"
                 data-center="background-position: 0px 50%;"
-                data-top-top="background-position: -20px 5%;"
                 data-bottom-top="background-position: 10px 90%;"
                 data-top-bottom="background-position: -20px 5%;"
-                data-anchor-target="#d3"
+                data-anchor-target="#d2"
             >
 		        <div class="smoothContainer">
 		    	    <div id="recentContent"
-                        data-bottom-center="opacity: 0"
                         data-top-top="opacity: 1"
+                        data-bottom-center="opacity: 0"
                         data-anchor-target="#d2"
                      >
                         <img id="recentLogo" src="./img/vanlogo.jpg" alt="vanlogo" />
@@ -102,7 +105,7 @@
                         </div>
                         <div id="recentLink">
                             <a href="http://vimeo.com/95384593">
-                            <video loop id="recentVid" src="./vid/vancouverbridge.mp4" autoplay />
+                            <video preload loop id="recentVid" src="./vid/vancouverbridge.mp4" autoplay />
                             </a> 
                         </div>
                     </div>
@@ -120,8 +123,8 @@
                         data-top-top="opacity: 1"
                         data-anchor-target="#d3"
                     >
-                        <div id="vidContainer">
-                            <div id="videoReel1">
+                        <ul class="vidGrid column3">
+                            <li id="videoReel1">
                                 <div class="overlay">
                                     <p>
                                     <br />
@@ -137,8 +140,8 @@ Flowing from the ground to the top of Lions Gate Bridge, I am aim to show you an
                                 <a href="http://vimeo.com/95384593">
                                 <img src="./img/discoveringvan.jpg" alt="van"/>
                                 </a>
-                            </div>
-                            <div id="videoReel2">
+                            </li>
+                            <li id="videoReel2">
                                 <div class="overlay">
                                     <p>
                                     <br />
@@ -152,8 +155,8 @@ Flowing from the ground to the top of Lions Gate Bridge, I am aim to show you an
                                 <a href="http://vimeo.com/30788720">
                                 <img src="./img/torontotempo.jpg" alt="torontotempo" />
                                 </a>
-                            </div>
-                            <div id="videoReel3">
+                            </li>
+                            <li id="videoReel3">
                                 <div class="overlay">
                                     <p>
                                     <br />
@@ -166,8 +169,8 @@ Flowing from the ground to the top of Lions Gate Bridge, I am aim to show you an
                                 <a href="http://vimeo.com/76673177">
                                 <img src="./img/foreverbicycles.jpg" alt="aiweiwei" />
                                 </a>
-                            </div>
-                            <div id="videoReel4">
+                            </li>
+                            <li id="videoReel4">
                                 <div class="overlay">
                                     <p>
                                     <br />
@@ -180,8 +183,8 @@ Flowing from the ground to the top of Lions Gate Bridge, I am aim to show you an
                                 <a href="http://vimeo.com/65810806">
                                 <img src="./img/tradingnirvana.jpg" alt="nirvana"/>
                                 </a>
-                            </div>
-                            <div id="videoReel5">
+                            </li>
+                            <li id="videoReel5">
                                 <div class="overlay">
                                     <p>
                                     <br />
@@ -194,8 +197,8 @@ Flowing from the ground to the top of Lions Gate Bridge, I am aim to show you an
                                 <a href="http://vimeo.com/53072482">
                                 <img src="./img/planettoronto.jpg" alt="planettoronto"/>
                                 </a>
-                            </div>
-                            <div id="videoReel6">
+                            </li>
+                            <li id="videoReel6">
                                 <div class="overlay">
                                     <p>
                                     <br />
@@ -208,8 +211,8 @@ Flowing from the ground to the top of Lions Gate Bridge, I am aim to show you an
                                 <a href="http://vimeo.com/45660425">
                                 <img src="./img/momentschina.jpg" alt="momentschina"/>
                                 </a>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -219,7 +222,7 @@ Flowing from the ground to the top of Lions Gate Bridge, I am aim to show you an
 
 		<section id="d4" class="smoothSlide">
 		    <div class="ree"
-                data-bottom-center="opacity: 0.1"
+                data-bottom-center="opacity: 0.2"
                 data-top-top="opacity: 1"
                 data-anchor-target="#d4"
             >
