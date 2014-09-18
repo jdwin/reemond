@@ -27,13 +27,13 @@
 }
 
 /*
- *  Width 1280
+ *  Width 1441
  */
 
-@media (max-width: 1281px) {
+@media (max-width: 1441px) {
 
     #menu {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .splashContent h2 {
@@ -48,21 +48,23 @@
     }
 
     #videoContent {
-        top: 25%;
+        left: -2.3%;
+        top: 16%;
     }
 
     .overlay p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         margin: 0.5rem;
         padding: 0.5rem;
         line-height: 1.1rem;
     }
 
     #textBox {
-        left: 0%;
-        top: 11%;
-        width: 35%;
+        left: 0.3%;
+        top: 8%;
+        width: 32%;
         height: auto;
+        font-size: 0.85rem;
     }
 
     ul#contactBox {
@@ -81,6 +83,11 @@
         top: 40%;
     }
 
+    #splashVid {
+        width: 100%;
+        height: 100%;
+    }
+
     #menu {
         font-size: 2rem;
     }
@@ -97,7 +104,8 @@
     }
 
     #videoContent {
-        top: 20%;
+        left: -3.7%;
+        top: 22%;
     }
 
     .overlay p {
