@@ -140,14 +140,6 @@
         left: 10%;
     }
 
-    #splashVid video {
-        display: none;
-    }
-
-    #recentLink video {
-        display: none;
-    }
-
     #menu {
         font-size: 2rem;
         left: 60%;
