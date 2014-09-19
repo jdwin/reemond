@@ -135,7 +135,7 @@ li.menuButton a:hover {
     text-shadow: 1px 2px #000000;
 }
 
-#recentLink video {
+#recentVid {
     position: absolute;
     top : 27%;
     left: 45%;
