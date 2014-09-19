@@ -1,4 +1,4 @@
-( function( $ ) {
+$(document).ready(function() {
 
     //SKROLLR	
 	$window = $(window);
@@ -36,4 +36,4 @@
 
 	}
 
-} )( jQuery );
+});
