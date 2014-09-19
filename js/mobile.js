@@ -11,6 +11,7 @@ function noVid() {
     console.log($(window).width());
 
     if($(window).width() < 961) {
+        skrollr.init().destory();
         $(".noVid").remove();
     }
 };
