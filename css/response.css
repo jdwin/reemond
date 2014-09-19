@@ -136,7 +136,8 @@
 @media (max-width: 1051px) {
 
     .splashContent h2 {
-        top: 40%;
+        top: 50%;
+        left: 50%;
     }
 
     #splashVid {
