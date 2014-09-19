@@ -129,3 +129,59 @@
     }
 }
 
+/*
+ *  Width 901 
+ */
+
+@media (max-width: 1051px) {
+
+    .splashContent h2 {
+        top: 40%;
+    }
+
+    #splashVid {
+        display: none;
+    }
+
+    #menu {
+        font-size: 2rem;
+    }
+
+    .splashContent h2 {
+        font-size: 3rem;
+    }
+
+    #descBox {
+        top: 30%;
+        width: 32%;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+    }
+
+    #videoContent {
+        left: -3.7%;
+        top: 22%;
+    }
+
+    .overlay p {
+        font-size: 0.6rem;
+        margin: 0rem;
+        padding: 0rem;
+        line-height: 0.9rem;
+    }
+
+    #textBox {
+        font-size: 0.7rem;
+        top: 13%;
+        left: 0%;
+        width: 33%;
+        height: auto;
+        line-height: 1.6rem;
+    }
+
+    ul#contactBox {
+        top: 17%;
+    }
+}
+
+
