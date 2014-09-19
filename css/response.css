@@ -140,7 +140,11 @@
         left: 10%;
     }
 
-    #splashVid {
+    #splashVid video {
+        display: none;
+    }
+
+    #recentLink video {
         display: none;
     }
 
