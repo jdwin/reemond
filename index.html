@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/response.css" media="screen and (max-width:1601px)">
         <link rel="stylesheet" href="css/response.css" media="screen and (max-width:1441px)">
         <link rel="stylesheet" href="css/response.css" media="screen and (max-width:1051px)">
-        <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:901px)">
+        <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:961px)">
 	    <!-- Font -->
 
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
@@ -69,7 +69,10 @@
 		        <div class="smoothContainer">
                     <div class="splashContent">
 				        <h2>reeMond</h2>
-                        <video preload autoplay id="splashVid" src="./vid/vancouverearth.mp4" />
+                        <video id="splashVid" class="noVid" preload autoplay>
+                            <source src="./vid/vancouverearth.mp4" type="video/mp4"/>
+                            <img src="./img/storm.jpg" alt="storm"/>
+                        </video>
 			    	</div>
 		        </div>
 	        </div>
@@ -105,7 +108,7 @@
                         </div>
                         <div id="recentLink">
                             <a href="http://vimeo.com/95384593">
-                            <video preload loop id="recentVid" src="./vid/vancouverbridge.mp4" autoplay />
+                            <video preload autoplay loop id="recentVid" class="noVid" src="./vid/vancouverbridge.mp4"/>
                             </a> 
                         </div>
                     </div>

@@ -82,7 +82,7 @@ li.menuButton a:hover {
     height: 100%;
 }
 
-.splashVid {
+#splashVid {
     width: 100%;
     height: auto;
 }
@@ -277,6 +277,7 @@ li.contactButton:nth-child(4) img {
    Images
    ========================================================================== */
 
+#d1 .ree {background-image: url('../img/storm');}
 #d2 .ree {background-image: url('../img/van.jpg');}
 #d3 .ree {background-color: #000000;}
 #d4 .ree {background-image: url('../img/contactme.jpg');}
