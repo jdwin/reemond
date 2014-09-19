@@ -113,8 +113,8 @@ li.menuButton a:hover {
 
 #recentLogo {
     position: absolute;
-    top: 15%;
-    left: 4%;
+    top: 19%;
+    left: 6%;
     width: 25%;
     height: auto;
     z-index: 10;
@@ -124,24 +124,24 @@ li.menuButton a:hover {
     position: absolute;
     font-size: 1rem;
     padding: 0.5rem;
-    top : 40%;
-    left: 5%;
+    top : 39%;
+    left: 6%;
     height: auto;
     width: 25%;
     line-height: 1.8rem;
     color: white;
     font-family: 'Arvo';
     clear: both;
+    text-shadow: 1px 2px #000000;
 }
 
 #recentLink video {
     position: absolute;
-    top : 25%;
+    top : 27%;
     left: 45%;
-    width: 45%;
+    width: 40%;
     height: auto;
-    border: 1px solid grey;
-    margin: 0;
+    border: 1.8px solid black;
 }
 
 /* ==========================================================================
