@@ -1,5 +1,5 @@
 $(window).resize(function(){
-        if(window.innerWidth < 900) {
+        if($(window).width() < 961) {
             $("#splashVid").remove();
             $("#recentVid").remove();
         }
