@@ -1,34 +1,36 @@
-/*
- *  Width 1600 
- */
+/* ==========================================================================
+   Width 1600 
+   ========================================================================== */
 
 @media (max-width: 1601px) {
 
     #descBox {
-        top: 30%;
+        top: 35%;
         width: 30%;
     }
 
     #videoContent {
         top: 22%;
+        left: -2%;
     }
 
     .overlay p {
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin: 0.5rem;
         padding: 0.5rem;
-        line-height: 1.1rem;
+        line-height: 1.2rem;
     }
 
     #textBox {
+        left: 1%;
         top: 11%;
         width: 30%;
     }
 }
 
-/*
- *  Width 1441
- */
+/* ==========================================================================
+   Width 1440 
+   ========================================================================== */
 
 @media (max-width: 1441px) {
 
@@ -37,12 +39,60 @@
     }
 
     .splashContent h2 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     #descBox {
         top: 37%;
-        width: 32%;
+        width: 31%;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    #videoContent {
+        left: -2.3%;
+        top: 16%;
+    }
+
+    .overlay p {
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        line-height: 1.2rem;
+    }
+
+    #textBox {
+        left: 0.8%;
+        top: 10%;
+        width: 30%;
+        font-size: 0.85rem;
+        line-height: 1.6rem;
+    }
+
+    ul#contactBox {
+        top: 13%;
+    }
+}
+
+
+/* ==========================================================================
+   Width 1366 
+   ========================================================================== */
+
+@media (max-width: 1367px) {
+
+    #menu {
+        font-size: 3rem;
+        top: 30%;
+    }
+
+    .splashContent h2 {
+        font-size: 3.8rem;
+    }
+
+    #descBox {
+        top: 37%;
+        width: 31%;
         font-size: 0.9rem;
         line-height: 1.5rem;
     }
@@ -60,11 +110,11 @@
     }
 
     #textBox {
-        left: 0.3%;
-        top: 8%;
-        width: 32%;
-        height: auto;
+        left: 0.8%;
+        top: 10%;
+        width: 30%;
         font-size: 0.85rem;
+        line-height: 1.6rem;
     }
 
     ul#contactBox {
@@ -72,10 +122,9 @@
     }
 }
 
-
-/*
- *  Width 1050 
- */
+/* ==========================================================================
+   Width 1050 
+   ========================================================================== */
 
 @media (max-width: 1051px) {
 
@@ -83,23 +132,18 @@
         top: 40%;
     }
 
-    #splashVid {
-        width: 100%;
-        height: 100%;
-    }
-
     #menu {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .splashContent h2 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     #descBox {
         top: 30%;
         width: 32%;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         line-height: 1.5rem;
     }
 
@@ -109,19 +153,19 @@
     }
 
     .overlay p {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         margin: 0rem;
         padding: 0rem;
-        line-height: 0.9rem;
+        line-height: 0.8rem;
     }
 
     #textBox {
-        font-size: 0.7rem;
-        top: 13%;
+        font-size: 0.8rem;
+        top: 11%;
         left: 0%;
-        width: 33%;
+        width: 30%;
         height: auto;
-        line-height: 1.6rem;
+        line-height: 1.4rem;
     }
 
     ul#contactBox {
@@ -129,9 +173,10 @@
     }
 }
 
-/*
- *  Width 961 
- */
+
+/* ==========================================================================
+   Width 960 
+   ========================================================================== */
 
 @media (max-width: 961px) {
 
