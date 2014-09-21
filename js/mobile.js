@@ -1,7 +1,3 @@
-$(document).ready(function() {
-    noVid();
-});
-
 $(window).resize(function() {
     noVid();
 });
