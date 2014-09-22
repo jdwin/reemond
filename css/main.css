@@ -139,40 +139,35 @@ li.menuButton a:hover {
    ========================================================================== */
 
 #videoContent {
-    width: 100%;
-    height: auto;
     position: absolute;
-    top: 16%;
-    left: -1.33%;
     opacity: 0;
+    top: 18%;
+    left: -2%;
+    margin: 0;
+    padding: 0;
 }
 
 ul.vidGrid {
     list-style: none;
     font-size: 0px;
-    width: 100%;
-    height: auto;
 }
 
 ul.vidGrid li {
     display: inline-block;
     font-size: 16px;
     font-size: 1rem;
-    vertical-align: top;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    margin: 0.2rem;
 }
 
 ul.vidGrid img {
-    display: inline-block;
     max-width: 100%;
     height: auto;
 }
 
 ul.vidGrid.column3 li {
-    width : 32.5%;
+    width : 33.2%;
     height: auto;
 }
 
