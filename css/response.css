@@ -198,6 +198,7 @@
     section {
         min-width: 960px;
         height: 600px;
+        overflow: hidden;
     }
 
     .smoothContainer {
