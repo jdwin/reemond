@@ -214,8 +214,13 @@
     }
 
     #menu {
-        font-size: 2rem;
-        left: 60%;
+        display: none;
+    }
+
+    #menu2 {
+        opacity: 1;
+        left: -5%;
+        font-size: 1.4rem;
     }
 
     .splashContent h2 {
