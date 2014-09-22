@@ -148,14 +148,13 @@ li.menuButton a:hover {
     position: absolute;
     opacity: 0;
     top: 18%;
-    left: -2%;
-    margin: 0;
-    padding: 0;
 }
 
 ul.vidGrid {
     list-style: none;
     font-size: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 ul.vidGrid li {
@@ -166,13 +165,13 @@ ul.vidGrid li {
 }
 
 ul.vidGrid img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 ul.vidGrid.column3 li {
     width : 33.3%;
-    height: auto;
+    max-width: 33.3%;
 }
 
 .overlay {
