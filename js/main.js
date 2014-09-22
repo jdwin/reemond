@@ -23,7 +23,7 @@ $(document).ready(function() {
 			winH = 550;
 		} 
 
-        if( winW > 961) {
+        if( winW >= 961) {
 		    var s = skrollr.init({
                 forceHeight: false
             });
@@ -42,8 +42,20 @@ $(document).ready(function() {
             s.destroy();
         }
 
-
-
 	}
+
+    function initAdjustWindow() {
+        return {
+            match: function() {
+                adjustWindow();
+            },
+            unmatch: function() {
+                adjustWindow();
+            }
+        };
+    }
+
+    enquire.register("screen and (min-width : 961px)", initAdjustWindow(), false)
+        .listen(100);
 
 });
