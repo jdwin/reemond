@@ -15,9 +15,9 @@
 #menu {
     position: fixed !important;
     right: 6%;
-    line-height: 1.5em;
+    line-height: 4vw;
     top: 35%;
-    font-size: 3rem;
+    font-size: 2.5vw;
     z-index: 100;
     clear: both;
     text-shadow: 6px 6px 8px #000000;
@@ -42,14 +42,14 @@ li.menuButton a:hover {
     left: 0%;
     width: 100%;
     height: auto;
-    line-height: 1rem;
+    line-height: 1vw;
     top: -1%;
-    font-size: 2rem;
+    font-size: 2vw;
     z-index: 100;
     background-color: #000000;
     margin: 0%;
     text-align: center;
-    word-spacing: 2rem;
+    word-spacing: 2vw;
     clear: both;
     opacity: 0;
 }
@@ -77,14 +77,20 @@ li.menuButton a:hover {
    Splash
    ========================================================================== */
 
+#splashVid {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 .splashContent h2 {
     position: absolute;
     top: 40%;
     left: 6%;
     color: white;
     font-family: PoolParty;
-    font-size: 4.4rem;
-    letter-spacing: 0.07em;
+    font-size: 4vw;
+    letter-spacing: 0.07vw;
     text-shadow: 6px 6px 8px #000000;
     z-index: 100;
 }
@@ -112,16 +118,17 @@ li.menuButton a:hover {
 
 #descBox {
     position: absolute;
-    padding: 0.5rem;
+    padding: 0.5vw;
     top : 39%;
     left: 6%;
     height: auto;
     width: 25%;
-    line-height: 1.8rem;
+    line-height: 1.8vw;
     color: white;
     font-family: 'Arvo';
     clear: both;
     text-shadow: 1px 2px #000000;
+    font-size: 0.85vw;
 }
 
 #recentVid {
@@ -153,8 +160,6 @@ ul.vidGrid {
 
 ul.vidGrid li {
     display: inline-block;
-    font-size: 16px;
-    font-size: 1rem;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -166,7 +171,7 @@ ul.vidGrid img {
 }
 
 ul.vidGrid.column3 li {
-    width : 33.2%;
+    width : 33.3%;
     height: auto;
 }
 
@@ -182,9 +187,9 @@ ul.vidGrid.column3 li {
     color: white;
     font-family: 'Arvo';
     text-align: center;
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1vw;
+    margin: 0.5vw;
+    padding: 0.5vw;
+    font-size: 0.9vw;
     line-height: 1.2vw;
 }
 
@@ -202,14 +207,14 @@ ul.vidGrid.column3 li {
 
 #textBox {
     position: absolute;
-    font-size: 0.9vw;
-    padding: 1rem;
-    margin: 1rem;
+    font-size: 0.8vw;
+    padding: 1vw;
+    margin: 1vw;
     top : 14%;
     left: 3%;
     height: auto;
     width: 25%;
-    line-height: 1.8rem;
+    line-height: 1.8vw;
     color: white;
     font-family: 'Arvo';
     clear: both;
@@ -225,7 +230,7 @@ ul#contactBox {
 }
 
 li.contactButton {
-    margin: 0 0 0.9rem 0;
+    margin: 0 0 0.9vw 0;
 }
 
 li.contactButton:nth-child(1) img {
@@ -248,14 +253,14 @@ li.contactButton:nth-child(4) img {
     height: auto;
 }
 
-#me {
+p.me {
     position: absolute;
-    top 89%;
-    background-color: green;
-    right: 80%;
-    font-size: 1rem;
-    color: white;
-    width: 100%;
+    top: 96%;
+    left: 88%;
+    height: auto;
+    width: 20%;
+    font-size: 0.7vw;
+    z-index: 100;
 }
 
 /* ==========================================================================
