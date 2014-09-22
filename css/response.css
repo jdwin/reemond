@@ -193,13 +193,13 @@
         -moz-background-size: cover;
         -o-background-size: cover;
 	    background-size: cover;
-        height: auto;
-        width: auto;
+        height: 100%;
+        width: 100%;
     }
 
     section {
-        min-width: auto;
-        height: auto;
+        min-width: 960px;
+        height: 600px;
     }
 
     .smoothContainer {
