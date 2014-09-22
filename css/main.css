@@ -256,10 +256,10 @@ li.contactButton:nth-child(4) img {
 p.me {
     position: absolute;
     top: 96%;
-    left: 88%;
+    left: 89%;
     height: auto;
     width: 20%;
-    font-size: 0.7vw;
+    font-size: 0.6vw;
     z-index: 100;
 }
 
