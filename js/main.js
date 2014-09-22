@@ -37,6 +37,10 @@ $(document).ready(function() {
             s.destory();
         }
 
+        if(Modernizr.touch) {
+            var s = skrollr.init();
+            s.destroy();
+        }
 
 
 
