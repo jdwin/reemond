@@ -112,7 +112,6 @@ li.menuButton a:hover {
 
 #descBox {
     position: absolute;
-    font-size: 1rem;
     padding: 0.5rem;
     top : 39%;
     left: 6%;
@@ -185,7 +184,8 @@ ul.vidGrid.column3 li {
     text-align: center;
     margin: 1rem;
     padding: 1rem;
-    line-height: 1.5rem;
+    font-size: 1vw;
+    line-height: 1.2vw;
 }
 
 /* ==========================================================================
@@ -202,7 +202,7 @@ ul.vidGrid.column3 li {
 
 #textBox {
     position: absolute;
-    font-size: 1rem;
+    font-size: 0.9vw;
     padding: 1rem;
     margin: 1rem;
     top : 14%;
@@ -291,6 +291,9 @@ html, main {
 	background-color: #000000;
     font-family: arial;
     height: 100% !important;
+    font-size: 16px;
+    font-size: 1vw;
+
 }
 
 * {
