@@ -197,7 +197,7 @@
 
     section {
         min-width: 960px;
-        height: 600px;
+        height: 768px;
         overflow: hidden;
     }
 
@@ -208,11 +208,6 @@
         position: relative;
     }
 
-    .splashContent h2 {
-        top: 45%;
-        left: 3%;
-    }
-
     #menu {
         display: none;
     }
@@ -220,6 +215,13 @@
     #menu2 {
         display: none;
     }
+
+
+    .splashContent h2 {
+        top: 45%;
+        left: 3%;
+    }
+
 
     .splashContent h2 {
         font-size: 3rem;
@@ -230,6 +232,15 @@
         width: 32%;
         font-size: 0.7rem;
         line-height: 1.5rem;
+    }
+
+    #videoContent {
+        opacity: 1;
+        top: 0;
+    }
+
+    ul.vidGrid.column3 li {
+        width: 45%;
     }
 
     #textBox {
