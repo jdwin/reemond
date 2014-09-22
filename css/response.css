@@ -210,7 +210,7 @@
 
     .splashContent h2 {
         top: 45%;
-        left: 10%;
+        left: 3%;
     }
 
     #menu {
@@ -232,13 +232,6 @@
         width: 32%;
         font-size: 0.7rem;
         line-height: 1.5rem;
-    }
-
-    .overlay p {
-        font-size: 0.6rem;
-        margin: 0rem;
-        padding: 0rem;
-        line-height: 0.9rem;
     }
 
     #textBox {
