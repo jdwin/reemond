@@ -311,13 +311,11 @@ html, main {
 
 section {
     min-width: 100%;
-	opacity: 0;
     height: auto;
 }
 
 .loaded section,
 .no-js section {
-	opacity: 1;
 	-webkit-transition: opacity 300ms ease-out;
 	-moz-transition: opacity 300ms ease-out;
 	transition: opacity 300ms ease-out;
@@ -334,8 +332,6 @@ section {
 
 .ree {
 	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
