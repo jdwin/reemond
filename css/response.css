@@ -99,7 +99,6 @@
 
     #videoContent {
         left: -2.3%;
-        top: 16%;
     }
 
     .overlay p {
@@ -123,10 +122,10 @@
 }
 
 /* ==========================================================================
-   Width 1050 
+   Width 1280 
    ========================================================================== */
 
-@media (max-width: 1051px) {
+@media (max-width: 1281px) {
 
     .splashContent h2 {
         top: 40%;
@@ -148,8 +147,11 @@
     }
 
     #videoContent {
-        left: -3.7%;
-        top: 22%;
+        top: 0%;
+    }
+
+    ul.vidGrid.column3 li {
+        width: 44%;
     }
 
     .overlay p {
@@ -199,11 +201,6 @@
         width: 32%;
         font-size: 0.7rem;
         line-height: 1.5rem;
-    }
-
-    #videoContent {
-        top: 45%;
-        left: 30%;
     }
 
     .overlay p {

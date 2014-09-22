@@ -1,8 +1,7 @@
 $(document).ready(function() {
 
-    //SKROLLR	
 	$window = $(window);
-	$page = $('.smoothSlide');
+	$slide = $('.smoothSlide');
 	$body = $('body');
 	
 	$body.imagesLoaded( function() {
@@ -17,22 +16,29 @@ $(document).ready(function() {
 	
 	function adjustWindow(){
 		
-		// Init Skrollr
-		var s = skrollr.init();
-		
-		
-		// Get window size
 	    winH = $window.height();
-	    
-	    // Keep minimum height 550
+        winW = $window.width();
+
 	    if(winH <= 550) {
 			winH = 550;
 		} 
-	    
-	    // Resize pages
-	    $page.height(winH);
 
-        s.refresh($('.smoothSlide'));
+        if( winW > 961) {
+		    var s = skrollr.init({
+                forceHeight: false
+            });
+
+            $slide.height(winH);
+
+            s.refresh($('.smoothSlide'));
+        } else {
+
+            var s = skrollr.init();
+            s.destory();
+        }
+
+
+
 
 	}
 
