@@ -7,6 +7,12 @@
         opacity: 1;
     }
 
+    section {
+        opacity: 1;
+        width: 100%;
+        height: auto;
+    }
+
     .ree {
         background-size: cover;
         height: 100%;
