@@ -55,7 +55,7 @@ $(document).ready(function() {
         };
     }
 
-    enquire.register("screen and (min-width : 961px)", initAdjustWindow(), false)
-        .listen(100);
+    enquire.register("screen and (min-width : 961px)", initAdjustWindow(), false);
+
 
 });
