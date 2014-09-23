@@ -1,13 +1,13 @@
 $(document).ready(function() {
-    noVid();
+    noMobile();
 });
 
 $(window).resize(function() {
-    noVid();
+    noMobile();
 });
 
-var noVid = function() {
+var noMobile = function() {
     if ($(window).width() <= 961) {
-        $('.noVid').remove();
+        $('.mobile').remove();
     };
 };
