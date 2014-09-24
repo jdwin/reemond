@@ -1,4 +1,4 @@
-#videoContainer div {
+#videoContainer {
   display:block;
   font-weight:bold;
   color:#14ADE5;
@@ -8,9 +8,12 @@
   padding:100px 10px;
   box-shadow: 0 1px #EBEBEB;
   background: #fff;
-  border-radius: 3px;
   border: 1px solid;
-  border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+  background-color: #000000;
+}
+
+#videoContainer img {
+    width: 40%;
 }
 
 .swipe {
@@ -27,3 +30,10 @@
   width:100%;
   position: relative;
 }
+
+html, main, body{
+    background-color: #000000;
+    font-family: 'Arvo', 'Open Sans', sans-serif;
+    font-size: 1vw;
+}
+
