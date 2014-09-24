@@ -24,9 +24,10 @@ function resizeWindow() {
     s.refresh($(".scrollView"));
 };
 
-function noMobile() {
+function Mobile() {
 //remove elements on mobile
-    $('.mobile').remove();
+    $(".mobile").remove();
+    $("#splashMenu").replaceWith("#mobileMenu");
 };
 
 function checkSize() {
@@ -39,7 +40,8 @@ function checkSize() {
 
     } else {
 
-        noMobile();
+        Mobile();
+
 
     };
 };

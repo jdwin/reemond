@@ -45,6 +45,14 @@
     font-family: PoolParty;
 }
 
+#mobileMenu {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    font-size: 8vw;
+}
+
 /* ==========================================================================
    Splash Page
    ========================================================================== */
