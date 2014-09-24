@@ -24,6 +24,37 @@
     font-family: 'Arvo';
 }
 
+.aboutText {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 3%;
+    width: 90%;
+    font-size: 3.3vw;
+    line-height: 4.7vw;
+    color: white;
+}
+
+ul.aboutBox {
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left: -5%;
+    top: 55%;
+    list-style: none;
+}
+
+.contactButton {margin: 0 0 0.9vw 0;}
+
+.contactButton:nth-child(1) img {width: 34%;}
+
+.contactButton:nth-child(2) img {width: 26%;}
+
+.contactButton:nth-child(3) img {width: 40%;}
+
+.contactButton:nth-child(4) img {width: 30%;}
+
 .swipe {
   overflow: hidden;
   visibility: hidden;
