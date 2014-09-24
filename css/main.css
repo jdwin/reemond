@@ -48,9 +48,10 @@
 #mobileMenu {
     position: absolute;
     width: 100%;
-    top: 35%;
+    top: 30%;
     text-align: center;
     font-size: 8vw;
+    line-height: 25vw;
 }
 
 /* ==========================================================================
