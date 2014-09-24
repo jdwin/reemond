@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    Slider = $('#videoContainer').Swipe().data('Swipe');  
+    Slider = $('#mySwipe').Swipe().data('Swipe');  
 });
 
