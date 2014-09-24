@@ -4,13 +4,25 @@
   color:#14ADE5;
   font-size:20px;
   text-align:center;
-  box-shadow: 0 1px #EBEBEB;
-  background: #fff;
   background-color: #000000;
+  margin: 0;
+  padding: 0;
 }
 
 #videoContainer img {
     width: 100%;
+}
+
+#videoContainer h2 {
+    font-size: 7vw;
+    color: white;
+}
+
+#videoContainer p {
+    width: 100%;
+    font-size: 3.5vw;
+    line-height: 6vw;
+
 }
 
 .swipe {
