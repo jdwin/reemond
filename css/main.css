@@ -1,162 +1,110 @@
-
-/******************************************
- * in the absence of clarity there is...
- * space! let's go to space!
- * -> also, this sheet is for ample space.
- * --> see response for responsive!
- *          .sarkio
-*******************************************/
-
-
 /* ==========================================================================
    Menu
    ========================================================================== */
 
-#menu {
+#splashMenu {
     position: fixed !important;
     right: 6%;
     line-height: 4vw;
-    top: 35%;
+    top: 33%;
     font-size: 2.5vw;
-    z-index: 100;
-    clear: both;
+    z-index: 999;
     text-shadow: 6px 6px 8px #000000;
 }
 
-ul#menuOptions {
+#splashMenu ul, a {
     list-style: none;
-}
-
-li.menuButton a {
     text-decoration: none;
     font-family: BebasNeue;
     color: #D11E36;
+    
 }
 
-li.menuButton a:hover {
-    color: #BA2929;
-}
+#splashMenu ul, a:hover {color: #BA2929;}
 
-#menu2 {
+#topMenu {
     position: fixed !important;
-    left: 0%;
     width: 100%;
-    height: auto;
-    line-height: 1vw;
-    top: -1%;
-    font-size: 2vw;
-    z-index: 100;
+    line-height: 0vw;
+    font-size: 1.8vw;
+    z-index: 999;
     background-color: #000000;
-    margin: 0%;
     text-align: center;
-    word-spacing: 2vw;
-    clear: both;
+    margin: 0;
+    padding: 0;
+    word-spacing: 3vw;
     opacity: 0;
 }
 
-#scroll {
-    position: fixed !important;
-    right: 2%;
-    top: 80%;
-    font-size: 1vw;
-}
-
-ul#menuOptions2 li {
+#topMenu li {
     display: inline-block;
 }
 
-#menuOptions2 > li.menuButton:nth-child(1) a {
+#topMenu li:nth-child(1) a {
     color: white;
     font-family: PoolParty;
-}
-
-li.menuButton a {
-    text-decoration: none;
-    font-family: BebasNeue;
-    color: #D11E36;
-}
-
-li.menuButton a:hover {
-    color: #BA2929;
 }
 
 /* ==========================================================================
-   Splash
+   Splash Page
    ========================================================================== */
 
-#splashVid {
+.splashVideo video {
+    position: absolute;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
 }
 
-.splashContent h2 {
+.welcomeTitle {
     position: absolute;
-    top: 40%;
-    left: 6%;
+    top: 35%;
+    left: 5%;
     color: white;
-    font-family: PoolParty;
     font-size: 4vw;
+    font-family: PoolParty;
     letter-spacing: 0.07vw;
     text-shadow: 6px 6px 8px #000000;
-    z-index: 100;
+    z-index: 999;
 }
 
 /* ==========================================================================
-   Recent Section
+   Recent Page 
    ========================================================================== */
 
-#recentContent {
-    position: relative;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
+.recentTitle img {
+    position: absolute;
+    width: 30%;
+    left: 5%;
+    top: 16%;
 }
 
-#recentLogo {
+.recentText {
     position: absolute;
-    top: 19%;
-    left: 6%;
-    width: 25%;
-    height: auto;
-    z-index: 10;
-}
-
-#descBox {
-    position: absolute;
-    padding: 0.5vw;
-    top : 39%;
-    left: 6%;
-    height: auto;
-    width: 25%;
-    line-height: 1.8vw;
-    color: white;
-    font-family: 'Arvo';
-    clear: both;
-    text-shadow: 1px 2px #000000;
+    top: 39%;
+    left: 6.5%;
+    width: 27%;
     font-size: 0.85vw;
+    line-height: 1.7vw;
+    text-shadow: 2px 2px 2px #000000;
 }
 
-#recentVid {
+.recentVideo video {
     position: absolute;
-    top : 27%;
+    top: 26%;
     left: 45%;
     width: 40%;
     height: auto;
-    border: 1.8px solid black;
+    border: 1.5px solid black;
 }
+
 
 /* ==========================================================================
-   Video Reel Section
+   Video Page 
    ========================================================================== */
 
-#videoContent {
+.vidGrid {
     position: absolute;
-    opacity: 0;
-    top: 18%;
+    top: 13%;
 }
-
 ul.vidGrid {
     list-style: none;
     font-size: 0px;
@@ -169,16 +117,13 @@ ul.vidGrid li {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    width : 33.3%;
+    max-width: 33.3%;
 }
 
 ul.vidGrid img {
     width: 100%;
     height: auto;
-}
-
-ul.vidGrid.column3 li {
-    width : 33.3%;
-    max-width: 33.3%;
 }
 
 .overlay {
@@ -199,84 +144,82 @@ ul.vidGrid.column3 li {
     line-height: 1.2vw;
 }
 
+
 /* ==========================================================================
-   About Me Section
+   About Page
    ========================================================================== */
 
-#aboutContent {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#textBox {
+.aboutText {
     position: absolute;
-    font-size: 0.8vw;
-    padding: 1vw;
-    margin: 1vw;
-    top : 14%;
+    top: 14%;
     left: 3%;
-    height: auto;
-    width: 25%;
-    line-height: 1.8vw;
-    color: white;
-    font-family: 'Arvo';
-    clear: both;
+    width: 27%;
+    font-size: 0.85vw;
+    line-height: 1.7vw;
 }
 
-ul#contactBox {
+ul.aboutBox {
+    position: absolute;
     text-align: center;
     vertical-align: middle;
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: 73%;
     list-style: none;
 }
 
-li.contactButton {
-    margin: 0 0 0.9vw 0;
-}
+.contactButton {margin: 0 0 0.9vw 0;}
 
-li.contactButton:nth-child(1) img {
-    width: 34%;
-    height: auto;
-}
+.contactButton:nth-child(1) img {width: 34%;}
 
-li.contactButton:nth-child(2) img {
-    width: 26%;
-    height: auto;
-}
+.contactButton:nth-child(2) img {width: 26%;}
 
-li.contactButton:nth-child(3) img {
-    width: 40%;
-    height: auto;
-}
+.contactButton:nth-child(3) img {width: 40%;}
 
-li.contactButton:nth-child(4) img {
-    width: 30%;
-    height: auto;
-}
-
-p.me {
-    position: absolute;
-    top: 96%;
-    left: 89%;
-    height: auto;
-    width: 20%;
-    font-size: 1vw;
-    z-index: 100;
-}
+.contactButton:nth-child(4) img {width: 30%;}
 
 /* ==========================================================================
-   Images
+   Page Control 
    ========================================================================== */
 
-#d1 .ree {background-image: url('../img/storm');}
-#d2 .ree {background-image: url('../img/van.jpg');}
-#d3 .ree {background-color: #000000;}
-#d4 .ree {background-image: url('../img/contactme.jpg');}
+html, main, body{
+    background-color: #000000;
+    font-family: 'Arvo', 'Open Sans', sans-serif;
+    font-size: 1vw;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+.backFill {
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.scrollContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+p {color: white;}
+
+img {vertical-align: middle;}
+
+/* ==========================================================================
+   Background Images
+   ========================================================================== */
+
+#p2 .backFill {background-image: url('../img/van.jpg');}
+#p3 .backFill {background-color: #000000;}
+#p4 .backFill {background-image: url('../img/contactme.jpg');}
 
 /* ==========================================================================
    Font 
@@ -292,77 +235,4 @@ p.me {
     font-family: "BebasNeue";
     src: url('../fonts/BebasNeue.otf'),
     url('Thonburi-Bold.eot'); /* IE */
-}
-
-/* ==========================================================================
-   Smooth
-   ========================================================================== */
-
-html, main {
-	background-color: #000000;
-    font-family: 'Open Sans', sans-serif;
-    height: 100%;
-    min-height: 100%;
-    font-size: 16px;
-    font-size: 1vw;
-
-}
-
-* {
-    -webkit-font-smoothing: antialiased;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-}
-    
-
-.loading {
-	background: url('../img/ico_loading.gif') no-repeat center center;
-}
-
-section {
-    min-width: 100%;
-    height: auto;
-}
-
-.loaded section,
-.no-js section {
-	-webkit-transition: opacity 300ms ease-out;
-	-moz-transition: opacity 300ms ease-out;
-	transition: opacity 300ms ease-out;
-}
-
-#preload {
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.ree {
-	background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-	background-size: cover;
-	width: 100%;
-    height: 100%;
-}
-
-.smoothContainer {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	position: relative;
-}
-
-img {
-    vertical-align: middle;
-}
-
-main {
-    overflow-x: hidden;
-}
-
 }

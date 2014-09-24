@@ -27,6 +27,7 @@
     }
 
     ul.vidGrid.column3 li {
+        opacity: 1;
         width: 49%;
         max-width: 49%;
     }

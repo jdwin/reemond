@@ -1,61 +1,23 @@
 $(document).ready(function() {
 
-	$window = $(window);
-	$slide = $('.smoothSlide');
-	$body = $('body');
-	
-	$body.imagesLoaded( function() {
-		setTimeout(function() {
-		      
-		      adjustWindow();
-		      
-			  $body.removeClass('loading').addClass('loaded');
-			  
-		}, 800);
-	});
-	
-	function adjustWindow(){
-		
-	    winH = $window.height();
-        winW = $window.width();
+    $window = $(window);
+    $section = $(".scrollView");
 
-	    if(winH <= 550) {
-			winH = 550;
-		} 
+    resizeWindow();
 
-        if( winW >= 961) {
-		    var s = skrollr.init({
-                forceHeight: false
-            });
+    function resizeWindow() {
 
-            $slide.height(winH);
+        viewH = $window.height();
+        viewW = $window.width();
 
-            s.refresh($('.smoothSlide'));
-        } else {
+        var s = skrollr.init({
+            forceHeight: false
+        });
 
-            var s = skrollr.init();
-            s.destory();
-        }
+        $section.height(viewH);
+        $section.width(viewW);
 
-        if(Modernizr.touch) {
-            var s = skrollr.init();
-            s.destroy();
-        }
-
-	}
-
-    function initAdjustWindow() {
-        return {
-            match: function() {
-                adjustWindow();
-            },
-            unmatch: function() {
-                adjustWindow();
-            }
-        };
+        s.refresh($(".scrollView"));
     }
-
-    enquire.register("screen and (min-width : 961px)", initAdjustWindow(), false);
-
 
 });
