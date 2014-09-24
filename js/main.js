@@ -9,6 +9,7 @@ $window = $(window);
 $section = $(".scrollView");
 
 function resizeWindow() {
+//initialise skrollr, check window size, and resize sections
 
     viewH = $window.height();
     viewW = $window.width();
@@ -24,11 +25,12 @@ function resizeWindow() {
 };
 
 function noMobile() {
+//remove elements on mobile
     $('.mobile').remove();
 };
 
 function checkSize() {
-
+//run functions at size
     viewW = $window.width();
 
     if (viewW > 961) {
