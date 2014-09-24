@@ -32,7 +32,7 @@ html, body {
   background: #f3f3f3;
 }
 
-#mySwipe div b {
+#videoContainer div {
   display:block;
   font-weight:bold;
   color:#14ADE5;
