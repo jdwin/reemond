@@ -35,8 +35,9 @@ function checkSize() {
     viewW = $window.width();
 
     if (viewW > 961) {
-
+        $("#mobileMenu").remove();
         resizeWindow();
+
 
     } else {
 
