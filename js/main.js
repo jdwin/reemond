@@ -16,10 +16,28 @@ function resizeWindow() {
     s.refresh($(".scrollView"));
 };
 
-function Mobile() {
-//remove elements on mobile
-    $(".mobile").remove();
-    $("#splashMenu").replaceWith("#mobileMenu");
+function fadeMenu() { 
+
+    //Fade out initial menu
+    $(window).scroll(function () {
+        var scrollTop = $(window).scrollTop();
+        if(scrollTop < 230) {
+            $('#splashMenu').stop().fadeIn('fast');
+        } else {
+            $('#splashMenu').stop().fadeOut('fast');
+        }
+    });
+
+    //Fade in second menu
+    $(window).scroll(function () {
+        var scrollTop = $(window).scrollTop();
+        if(scrollTop > 399) {
+            $('#topMenu').stop().animate({'opacity':'1'});
+        } else {
+            $('#topMenu').stop().animate({'opacity':'0'});
+        }
+    });
+
 };
 
 function randomVideo() {
@@ -39,22 +57,35 @@ function randomVideo() {
         if (count >= playlist.length) {count=1;}
 };
 
+function mobile() {
+//remove elements on mobile
+    $(".mobile").remove();
+    $("#splashMenu").replaceWith("#mobileMenu");
+};
+
+function desktop() {
+//remove elements on mobile
+    $("#mobileMenu").remove();
+    $(".splashSlide").remove();
+};
+
 function checkDeploy() {
 //run functions at size
     if (viewW > 961) {
-        $("#mobileMenu").remove();
-        $(".splashSlide").remove();
         randomVideo();
         resizeWindow();
+        desktop();
     } else {
-        Mobile();
+        mobile();
     };
 };
 
-$(document).ready(function() {
-    checkDeploy();
-});
 $(window).resize(function() {
     checkDeploy();
 });
+$(document).ready(function() {
+    checkDeploy();
+});
+
+fadeMenu();
 
