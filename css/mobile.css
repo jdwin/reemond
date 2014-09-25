@@ -22,10 +22,10 @@
    ========================================================================== */
 
 #videoContainer {
-  display:block;
-  font-weight:bold;
-  color:#14ADE5;
-  text-align:center;
+    display:block;
+    font-weight:bold;
+    color:#14ADE5;
+    text-align:center;
 }
 
 #videoContainer h2 {
@@ -38,9 +38,9 @@
     width: 100%;
     margin: 1px;
     font-size: 3vw;
-    margin: 2vw;
     line-height: 6vw;
     color: #EBEBEB;
+    margin: 1.5vw;
 }
 
 #videoContainer img {width: 100%;}
