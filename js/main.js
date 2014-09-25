@@ -1,5 +1,4 @@
 var $window = $(window),
-    $section = $(".scrollView"),
     viewH = $window.height(),
     viewW = $window.width();
 
@@ -67,7 +66,7 @@ function mobile() {
 };
 
 function desktop() {
-//remove elements on mobile
+//remove elements on desktop
     $("#mobileMenu").remove();
     $(".splashSlide").remove();
 };
