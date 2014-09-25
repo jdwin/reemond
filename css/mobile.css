@@ -17,9 +17,10 @@
 }
 
 #videoContainer p {
+    font-weight: normal;
     width: 100%;
     margin: 1px;
-    font-size: 3.3vw;
+    font-size: 3.5vw;
     line-height: 6vw;
     color: white;
 }
