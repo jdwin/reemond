@@ -54,7 +54,8 @@
 #mobileMenu h2 {
     font-size: 12.5vw;
     font-family: PoolParty;
-    letter-spacing: 0.8vw;
+    letter-spacing: 0.6vw;
+    text-shadow: 6px 6px 8px #000000;
     color: white;
 }
 
