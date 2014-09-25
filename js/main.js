@@ -73,12 +73,12 @@ function desktop() {
 
 function checkDeploy() {
 //run functions at size
-    if (viewW > 961) {
+   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        mobile();
+    } else {
         randomVideo();
         resizeWindow();
         desktop();
-    } else {
-        mobile();
     };
 };
 
