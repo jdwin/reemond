@@ -36,9 +36,7 @@
     opacity: 0;
 }
 
-#topMenu li {
-    display: inline-block;
-}
+#topMenu li {display: inline-block;}
 
 #topMenu li:nth-child(1) a {
     color: white;
@@ -198,9 +196,7 @@ html, main, body{
     font-size: 1vw;
 }
 
-main {
-    overflow-x: hidden;
-}
+main {overflow-x: hidden;}
 
 .backFill {
 	background-position: center center;
