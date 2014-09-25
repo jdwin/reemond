@@ -45,12 +45,23 @@
 
 #mobileMenu {
     position: absolute;
-    width: 100%;
-    top: 30%;
-    text-align: center;
-    font-size: 8vw;
-    line-height: 15vw;
+    top: 27%;
     z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+
+#mobileMenu h2 {
+    font-size: 12.5vw;
+    font-family: PoolParty;
+    letter-spacing: 0.8vw;
+    color: white;
+}
+
+#mobileMenu li {
+    font-size: 12vw;
+    list-style: none;
+    line-height: 20vw;
 }
 
 /* ==========================================================================
