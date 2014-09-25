@@ -17,3 +17,19 @@ $(document).ready(function() {
         if (count >= playlist.length) {count=1;}
         }
 });
+
+$(document).ready(function() {
+    var sequence = [0,1,2,3,4],
+        count = 1,
+        playlist = ['../img/storm.jpg', '../img/planettoronto.jpg','../img/discoveringvan.jpg', '../img/foreverbicycles.jpg', '../img/tradingnirvana.jpg'],
+        image = document.getElementById('imgSlide');
+
+    sequence.sort(function() {return 0.5 - Math.random()});
+
+    function random_img() {
+        image.setAttribute('src', playlist[sequence[count]]);
+        image.load();
+        count++;
+        if (count >= playlist.length) {count=1;}
+        }
+});
