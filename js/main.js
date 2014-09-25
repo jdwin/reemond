@@ -80,12 +80,11 @@ function checkDeploy() {
     };
 };
 
+fadeMenu();
+
 $(window).resize(function() {
     checkDeploy();
 });
 $(document).ready(function() {
     checkDeploy();
 });
-
-fadeMenu();
-
