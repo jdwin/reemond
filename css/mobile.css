@@ -30,7 +30,6 @@
     font-weight:bold;
     color:#14ADE5;
     text-align:center;
-    border: 2px black solid;
 }
 
 #videoContainer h2 {
@@ -50,7 +49,10 @@
     color: #EBEBEB;
 }
 
-#videoContainer img {width: 100%;}
+#videoContainer img {
+    width: 100%;
+    border: 2px black solid;
+}
 
 /* ==========================================================================
    About Page
