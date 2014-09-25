@@ -50,6 +50,7 @@
     text-align: center;
     font-size: 8vw;
     line-height: 15vw;
+    z-index: 999;
 }
 
 /* ==========================================================================
@@ -59,6 +60,11 @@
 .splashVideo video {
     position: absolute;
     width: 100%;
+}
+
+.splashSlide {
+    width: 100%;
+    height: auto;
 }
 
 .welcomeTitle {

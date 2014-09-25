@@ -36,6 +36,7 @@ function checkSize() {
 
     if (viewW > 961) {
         $("#mobileMenu").remove();
+        $(".splashSlide").remove();
         resizeWindow();
 
 
