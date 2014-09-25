@@ -6,11 +6,11 @@
     position: absolute;
     top: 0%;
     width: 100%;
-    left: 9%;
+    left: 10%;
 }
 
 #nav ul li {
-    font-size: 6vw;
+    font-size: 5vw;
     display: inline;
     list-style: none;
     word-spacing: 7vw;
