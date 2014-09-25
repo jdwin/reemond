@@ -5,6 +5,9 @@ var $window = $(window),
 
 function resizeWindow() {
 //initialise skrollr, check window size, and resize sections
+    $section = $(".scrollView"),
+    viewH = $window.height(),
+    viewW = $window.width();
 
     var s = skrollr.init({
         forceHeight: false
@@ -82,9 +85,5 @@ function checkDeploy() {
 
 fadeMenu();
 
-$(window).resize(function() {
-    checkDeploy();
-});
-$(document).ready(function() {
-    checkDeploy();
-});
+$(window).resize(function() {checkDeploy();});
+$(document).ready(function() {checkDeploy();});
