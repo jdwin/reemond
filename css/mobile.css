@@ -27,7 +27,6 @@
   color:#14ADE5;
   font-size:20px;
   text-align:center;
-  background-color: #000000;
 }
 
 #videoContainer h2 {
@@ -41,7 +40,7 @@
     margin: 1px;
     font-size: 3.5vw;
     line-height: 6vw;
-    color: white;
+    color: #EBEBEB;
 }
 
 #videoContainer img {width: 100%;}
@@ -105,7 +104,7 @@ ul.aboutBox {
    ========================================================================== */
 
 html, main, body{
-    background-color: #000000;
+    background-color: #1B1B1B;
     font-family: 'Arvo', 'Open Sans', sans-serif;
     font-size: 1vw;
 }
