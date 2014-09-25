@@ -18,7 +18,7 @@
 
 #nav a {
     text-decoration: none;
-    color: #E22C35;
+    color: #E22C3C;
 }
 
 /* ==========================================================================
@@ -110,7 +110,7 @@ ul.aboutBox {
    ========================================================================== */
 
 html, main, body{
-    background-color: #1B1B1B;
+    background-color: #121010;
     font-family: 'Arvo', 'Open Sans', sans-serif;
     font-size: 1vw;
 }
