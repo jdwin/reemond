@@ -48,6 +48,8 @@
     top: 27%;
     z-index: 999;
     width: 100%;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -60,10 +62,12 @@
 }
 
 #mobileMenu li {
-    font-size: 12vw;
+    font-size: 13vw;
     list-style: none;
     line-height: 20vw;
     text-shadow: 6px 6px 8px #000000;
+    margin: 0;
+    padding: 0;
 }
 
 /* ==========================================================================
