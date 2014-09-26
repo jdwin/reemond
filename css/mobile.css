@@ -29,6 +29,21 @@
     text-align:center;
 }
 
+.icons {
+    position: fixed;
+    width: 25%;
+}
+
+.icons:nth-child(1) {
+    top: 30%;
+    left: -2%;
+}
+
+.icons:nth-child(2) {
+    top: 5%;
+    left: 90%;
+}
+
 #videoContainer h2 {
     font-size: 7vw;
     color: white;
