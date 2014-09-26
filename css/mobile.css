@@ -24,25 +24,32 @@
    Video Page 
    ========================================================================== */
 
+#icons {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    font-weight: bold;
+    margin-left: -4.5%;
+    position: fixed;
+    background: transparent;
+    z-index: 999;
+    top: 25%;
+    left: 5%;
+}
+
+#icons li {
+    font-size: 5vw;
+    display: inline;
+    list-style: none;
+    word-spacing: 46vw;
+}
+
 #videoContainer {
     color:#14ADE5;
     text-align:center;
 }
 
-.icons {
-    position: fixed;
-    width: 25%;
-}
-
-.icons:nth-child(1) {
-    top: 30%;
-    left: -2%;
-}
-
-.icons:nth-child(2) {
-    top: 5%;
-    left: 90%;
-}
 
 #videoContainer h2 {
     font-size: 7vw;
