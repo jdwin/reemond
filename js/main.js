@@ -49,7 +49,7 @@ function randomVideo() {
         playlist = ['./vid/vancouverearth.mp4',  './vid/torontozoomout.mp4', './vid/torontozoom.mp4', './vid/vancouverglass.mp4', './vid/birds.mp4'],
         video = document.getElementById('splashVid');
 
-    video.addEventListener('ended', randomVideo, false);
+    video.addEventListener('ended', randomVideo);
 
     sequence.sort(function() {return 0.5 - Math.random()});
 

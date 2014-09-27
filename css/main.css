@@ -48,8 +48,6 @@
     top: 27%;
     z-index: 999;
     width: 100%;
-    margin: 0;
-    padding: 0;
     text-align: center;
 }
 
@@ -66,8 +64,6 @@
     list-style: none;
     line-height: 20vw;
     text-shadow: 6px 6px 8px #000000;
-    margin: 0;
-    padding: 0;
 }
 
 /* ==========================================================================
