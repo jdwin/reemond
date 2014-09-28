@@ -15,9 +15,8 @@ function overlayExecute() {
 
     var targets = ['1','2','3','4','5','6'];
 
-    for (target in targets) {
-        overlayAssign(target);
-    };
+    $.each(targets, overlayAssign(target))
+    }
 };
 
 $(document).ready(function() {

@@ -3,7 +3,8 @@ var $window = $(window),
     viewW = $window.width();
 
 function resizeWindow() {
-//initialise skrollr, check window size, and resize sections
+    //initialise skrollr, check window size, and resize sections
+    
     $section = $(".scrollView"),
     viewH = $window.height(),
     viewW = $window.width();
@@ -19,8 +20,8 @@ function resizeWindow() {
 };
 
 function scrollEvents() { 
-
     //Fade out initial menu
+    
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
         if(scrollTop < 230) {
@@ -53,7 +54,7 @@ function scrollEvents() {
     //Play/Pause recentVideo on scroll
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
-        if((scrollTop < 450) || (scrollTop > 1499)) {
+        if((scrollTop < 450) || (scrollTop > 1399)) {
             document.getElementById('recentVid').pause();
         } else {
             document.getElementById('recentVid').play();
@@ -80,18 +81,21 @@ function randomVideo() {
 };
 
 function mobile() {
-//remove elements on mobile
+    //remove elements on mobile
+
     $(".mobile").remove();
     $("#splashMenu").replaceWith("#mobileMenu");
 };
 
 function desktop() {
-//remove elements on desktop
+    //remove elements on desktop
+    
     $("#mobileMenu").remove();
     $(".splashSlide").remove();
 };
 
 function checkDeploy() {
+
    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         mobile();
     } else {

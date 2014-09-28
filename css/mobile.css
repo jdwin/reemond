@@ -19,12 +19,6 @@
     color: #E22C3C;
 }
 
-.arrow {
-    position: fixed;
-    z-index: 999;
-    top: 27.5%;
-}
-
 /* ==========================================================================
    Video Page 
    ========================================================================== */
@@ -51,6 +45,31 @@
 
 #videoContainer img {
     width: 100%;
+}
+
+.arrowMobile {
+    position: absolute;
+    top: 0.9%;
+    left: 91%;
+    height: 3vw;
+    width: 3vw;
+    line-height: 50px;
+    font-size: 10vw;
+    text-align: center;
+    z-index: 999;
+    color: #E22C3C;
+    border-radius: 50%;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite ;
+}
+
+@-webkit-keyframes fade {
+    100% {opacity: 1;}
+    75% {opacity: 0.7;}
+    50% {opacity: 0.4;}
+    25% {opacity: 0.1;}
+    0% {opacity: 0.4;}
 }
 
 /* ==========================================================================
