@@ -25,6 +25,7 @@
 
 #videoContainer {
     text-align:center;
+    width: 100%;
 }
 
 
@@ -49,11 +50,11 @@
 
 .arrowMobile {
     position: absolute;
-    top: 95%;
-    left: 72%;
+    top: 94%;
+    left: 40%;
     height: 3vw;
     width: 30vw;
-    font-size: 3vw;
+    font-size: 3.5vw;
     line-height: 50px;
     z-index: 999;
     color: #E22C3C;
