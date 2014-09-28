@@ -30,7 +30,6 @@
    ========================================================================== */
 
 #videoContainer {
-    color:#14ADE5;
     text-align:center;
 }
 
@@ -65,8 +64,8 @@
     width: 90%;
     font-size: 3.3vw;
     line-height: 4.7vw;
-    color: white;
     text-align: center;
+    color: #BEBDBD;
 }
 
 ul.aboutBox {
