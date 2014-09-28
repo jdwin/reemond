@@ -49,11 +49,11 @@
 
 .arrowMobile {
     position: absolute;
-    top: 94%;
-    left: 40%;
+    top: 100%;
+    left: 35%;
     height: 3vw;
     width: 30vw;
-    font-size: 3.5vw;
+    font-size: 5vw;
     line-height: 50px;
     z-index: 999;
     color: #E22C3C;
