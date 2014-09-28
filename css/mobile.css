@@ -33,6 +33,10 @@
     color: white;
 }
 
+#videoContainer img {
+    width: 100%;
+}
+
 #videoContainer p {
     width: 90%;
     margin: 1px;
@@ -41,10 +45,6 @@
     margin-top: 5px;
     margin-left: 18px;
     color: #BEBDBD;
-}
-
-#videoContainer img {
-    width: 100%;
 }
 
 .arrowMobile {
@@ -132,5 +132,6 @@ html, main, body{
     background-color: #121010;
     font-family: 'Arvo', 'Open Sans', sans-serif;
     font-size: 1vw;
+    overflow: hidden;
 }
 
