@@ -37,11 +37,8 @@
 
 #videoContainer p {
     width: 90%;
-    margin: 1px;
     font-size: 3.1vw;
     line-height: 6vw;
-    margin-top: 5px;
-    margin-left: 18px;
     color: #BEBDBD;
 }
 
