@@ -244,6 +244,15 @@ ul.aboutBox {
 
 .contactButton:nth-child(4) img {width: 30%;}
 
+.me a {
+    position: absolute;
+    font-size: 0.75vw;
+    top: 95%;
+    left: 90%;
+    z-index: 999;
+    color: white;
+}
+
 /* ==========================================================================
    Background Images
    ========================================================================== */
