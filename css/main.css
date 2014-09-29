@@ -9,7 +9,7 @@
     top: 33%;
     font-size: 2.5vw;
     z-index: 999;
-    text-shadow: 6px 6px 8px #000000;
+    text-shadow: 3px 3px 5px #000000;
 }
 
 #splashMenu ul, a {
@@ -71,8 +71,8 @@
    ========================================================================== */
 
 .splashVideo video {
-    position: absolute;
     width: 100%;
+    height: auto;
 }
 
 .splashSlide {
@@ -105,9 +105,20 @@
     z-index: 999;
     color: white;
     border-radius: 50%;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
     -webkit-animation-name: fade;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite ;
+}
+
+@keyframes fade {
+    100% {opacity: 1;}
+    75% {opacity: 0.7;}
+    50% {opacity: 0.4;}
+    25% {opacity: 0.1;}
+    0% {opacity: 0.4;}
 }
 
 @-webkit-keyframes fade {
@@ -282,11 +293,11 @@ img {vertical-align: middle;}
 @font-face{
     font-family: "PoolParty";
     src: url('../fonts/PoolParty.ttf'),
-    url('Thonburi-Bold.eot'); /* IE */
+    url('BebasNeue.eot'); /* IE */
 }
 
 @font-face{
     font-family: "BebasNeue";
     src: url('../fonts/BebasNeue.otf'),
-    url('Thonburi-Bold.eot'); /* IE */
+    url('BebasNeue.eot'); /* IE */
 }
