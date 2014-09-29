@@ -57,6 +57,9 @@
     line-height: 50px;
     z-index: 999;
     color: #E22C3C;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
     -webkit-animation-name: fade;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite ;
