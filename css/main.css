@@ -123,11 +123,13 @@
    Recent Page 
    ========================================================================== */
 
-.recentTitle img {
+.recentTitle h1 {
     position: absolute;
-    width: 30%;
-    left: 5%;
-    top: 16%;
+    font-size: 2.3vw;
+    left: 6%;
+    top: 24%;
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 .recentText {
