@@ -101,6 +101,7 @@
     width: 3vw;
     line-height: 50px;
     font-size: 5vw;
+    font-family: 'Arvo';
     text-align: center;
     z-index: 999;
     color: white;
@@ -245,6 +246,30 @@ ul.aboutBox {
 .contactButton:nth-child(4) img {width: 30%;}
 
 /* ==========================================================================
+   Background Images
+   ========================================================================== */
+
+#p2 .backFill {background-image: url('../img/van.jpg');}
+#p3 .backFill {background-color: #000000;}
+#p4 .backFill {background-image: url('../img/contactme.jpg');}
+
+/* ==========================================================================
+   Font 
+   ========================================================================== */
+
+@font-face{
+    font-family: "PoolParty";
+    src: url('../fonts/PoolParty.ttf'),
+    url('BebasNeue.eot'); /* IE */
+}
+
+@font-face{
+    font-family: "BebasNeue";
+    src: url('../fonts/BebasNeue.otf'),
+    url('BebasNeue.eot'); /* IE */
+}
+
+/* ==========================================================================
    Page Control 
    ========================================================================== */
 
@@ -277,26 +302,3 @@ p {color: white;}
 
 img {vertical-align: middle;}
 
-/* ==========================================================================
-   Background Images
-   ========================================================================== */
-
-#p2 .backFill {background-image: url('../img/van.jpg');}
-#p3 .backFill {background-color: #000000;}
-#p4 .backFill {background-image: url('../img/contactme.jpg');}
-
-/* ==========================================================================
-   Font 
-   ========================================================================== */
-
-@font-face{
-    font-family: "PoolParty";
-    src: url('../fonts/PoolParty.ttf'),
-    url('BebasNeue.eot'); /* IE */
-}
-
-@font-face{
-    font-family: "BebasNeue";
-    src: url('../fonts/BebasNeue.otf'),
-    url('BebasNeue.eot'); /* IE */
-}
