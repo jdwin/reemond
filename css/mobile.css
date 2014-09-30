@@ -169,6 +169,7 @@ ul.aboutBox {
     }
 
     #videoContainer img {
+        position: absolute;
         left: 0%;
         width: 58%;
         margin-top: 4%;
