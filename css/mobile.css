@@ -172,7 +172,7 @@ ul.aboutBox {
         position: absolute;
         left: 0%;
         width: 58%;
-        margin-top: 2%;
+        margin-top: 1.5%;
     }
     
     #videoContainer p {
@@ -189,7 +189,7 @@ ul.aboutBox {
         position: absolute;
         left: 64%;
         font-size: 2.5vw;
-        top: 93%;
+        top: 95%;
     }
 }
 
