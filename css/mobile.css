@@ -163,7 +163,7 @@ ul.aboutBox {
     }
 
     #videoContainer h2 {
-        margin-top: 0%;
+        margin-top: 2%;
         font-size: 3.5vw;
         color: white;
     }
@@ -178,7 +178,7 @@ ul.aboutBox {
         position: relative;
         float: right;
         width: 40%;
-        margin-top: 3%;
+        margin-top: 2%;
         font-size: 1.5vw;
         line-height: 3vw;
         color: #BEBDBD;
