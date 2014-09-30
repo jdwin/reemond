@@ -246,11 +246,13 @@ ul.aboutBox {
 
 .me a {
     position: absolute;
-    font-size: 0.75vw;
-    top: 95%;
-    left: 90%;
+    font-size: 0.6vw;
+    font-family: 'Arvo';
+    font-weight: normal;
+    top: 98%;
+    left: 92%;
     z-index: 999;
-    color: white;
+    color: #BEBDBD;
 }
 
 /* ==========================================================================

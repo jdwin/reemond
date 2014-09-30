@@ -144,6 +144,33 @@ ul.aboutBox {
 }
 
 /* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media(min-width: 500px) {
+
+    #videoContainer h2 {
+        font-size: 3.5vw;
+        color: white;
+    }
+
+    #videoContainer img {
+        position: absolute;
+        left: 0%;
+        width: 50%;
+    }
+    
+    #videoContainer p {
+        position: relative;
+        float: right;
+        width: 40%;
+        top: -5%;
+        font-size: 2.1vw;
+        line-height: 3vw;
+        color: #BEBDBD;
+    }
+}
+
+/* ==========================================================================
    Page Control 
    ========================================================================== */
 
