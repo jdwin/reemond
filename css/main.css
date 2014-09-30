@@ -77,7 +77,6 @@
 }
 
 .splashSlide img {
-    position: relative;
     width: 100%;
     min-height: 100%;
 }
@@ -259,7 +258,6 @@ ul.aboutBox {
 /* ==========================================================================
    Background Images
    ========================================================================== */
-
 #p2 .backFill {background-image: url('../img/van.jpg');}
 #p3 .backFill {background-color: #000000;}
 #p4 .backFill {background-image: url('../img/contactme.jpg');}

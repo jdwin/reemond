@@ -91,7 +91,7 @@ function desktop() {
     //remove elements on desktop
     
     $("#mobileMenu").remove();
-    $(".splashSlide").remove();
+    $(".mobileSplash").remove();
 };
 
 function checkDeploy() {
