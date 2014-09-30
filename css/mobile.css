@@ -151,7 +151,7 @@ ul.aboutBox {
     #nav {
         width: 100%;
         word-spacing: 12vw;
-        margin-left: 27%;
+        margin-left: 26%;
     }
 
     #nav ul li {
@@ -162,7 +162,7 @@ ul.aboutBox {
     }
 
     #videoContainer h2 {
-        margin-top: -1%;
+        margin-top: -0.5%;
         font-size: 3.5vw;
         color: white;
     }
@@ -171,13 +171,14 @@ ul.aboutBox {
         position: absolute;
         left: 0%;
         width: 58%;
+        margin-top: -2%;
     }
     
     #videoContainer p {
         position: relative;
         float: right;
         width: 40%;
-        margin-top: -2%;
+        margin-top: -4%;
         font-size: 2.1vw;
         line-height: 3vw;
         color: #BEBDBD;
