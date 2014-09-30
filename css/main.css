@@ -264,6 +264,35 @@ ul.aboutBox {
 #p4 .backFill {background-image: url('../img/contactme.jpg');}
 
 /* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media screen and (orientation: landscape) {
+
+    #mobileMenu {
+        position: fixed;
+        top: 17%;
+        z-index: 999;
+        width: 100%;
+        text-align: center;
+        word-spacing: 15vw;
+    }
+    
+    #mobileMenu h2 {
+        font-size: 8vw;
+    }
+
+    #mobileMenu li {
+        font-size: 7vw;
+        display: inline-block;
+        margin-left: -6%;
+        list-style: none;
+        line-height: 8vw;
+        text-shadow: 6px 6px 8px #000000;
+    }
+}
+
+/* ==========================================================================
    Font 
    ========================================================================== */
 
