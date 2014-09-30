@@ -148,7 +148,21 @@ ul.aboutBox {
    ========================================================================== */
 @media(min-width: 500px) {
 
+    #nav {
+        width: 100%;
+        word-spacing: 12vw;
+        margin-left: 27%;
+    }
+
+    #nav ul li {
+        font-size: 2.5vw;
+        display: inline-block;
+        list-style: none;
+        font-weight: bold;
+    }
+
     #videoContainer h2 {
+        margin-top: -1%;
         font-size: 3.5vw;
         color: white;
     }
@@ -156,17 +170,21 @@ ul.aboutBox {
     #videoContainer img {
         position: absolute;
         left: 0%;
-        width: 50%;
+        width: 58%;
     }
     
     #videoContainer p {
         position: relative;
         float: right;
         width: 40%;
-        top: -5%;
+        margin-top: -2%;
         font-size: 2.1vw;
         line-height: 3vw;
         color: #BEBDBD;
+    }
+
+    .arrowMobile {
+        font-size: 2vw;
     }
 }
 
