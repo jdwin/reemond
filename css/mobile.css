@@ -194,7 +194,7 @@ ul.aboutBox {
 
     .aboutText {
         position: absolute;
-        top: 14%;
+        top: 13%;
         left: 3%;
         width: 50%;
         font-size: 1.3vw;
@@ -207,7 +207,7 @@ ul.aboutBox {
         width: 50%;
         left: 50%;
         text-align: center;
-        top: 24%;
+        top: 22%;
         list-style: none;
     }
 }
