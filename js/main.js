@@ -70,7 +70,6 @@ function randomVideo() {
         video = document.getElementById('splashVid');
 
     video.addEventListener('ended', randomVideo);
-
     sequence.sort(function() {return 0.5 - Math.random()});
 
         video.setAttribute('src', playlist[sequence[count]]);
@@ -92,6 +91,8 @@ function desktop() {
     
     $("#mobileMenu").remove();
     $(".mobileSplash").remove();
+    $('#splashVid').bind('contextmenu',function() { return false;});
+    $('.recentVideo').bind('contextmenu',function() { return false;});
 };
 
 function checkDeploy() {
@@ -101,9 +102,9 @@ function checkDeploy() {
    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (viewW < 500) ) {
         mobile();
     } else {
-        randomVideo();
-        resizeWindow();
         desktop();
+        resizeWindow();
+        randomVideo();
         scrollEvents();
     };
 };

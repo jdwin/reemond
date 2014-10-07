@@ -1,24 +1,17 @@
-function overlayAssign(target) {
-    $('videoReel' + target).bind('mouseenter', function() {
-            $('#videoReel' + target + ' img').animate({'opacity':0.1});
-            $('#videoReel' + target + ' .overlay').animate({'opacity':1});
-            $('.overlay').width($('#videoReel' + target + ' img').width());
-            $('.overlay').height($('#videoReel' + target + ' img').height());
-    });
-    $('videoReel' + target).bind('mouseleave', function() {
-        $('videoReel' + target + ' img').animate({'opacity':1});
-        $('videoReel' + target ' .overlay').animate({'opacity':0});
-    });
-};
+function assign(target) {
+	this.target = target;
+	$('videoReel{0}'.format(this.target)).bind('mouseenter', function() {
+		$('#videoReel{0} img'.format(this.target)).animate({'opacity':0.1});
+		$('#videoReel{0} .overlay'.format(this.target)).animate({'opacity':1});
+		$('.overlay').width($('#videoReel{0} img'.format(this.target)).width());
+		$('.overlay').height($('#videoReel{0} img'.format(this.target)).height());
+	});
 
-function overlayExecute() {
+	$('videoReel{0}'.format(this.target)).bind('mouseleave', function() {
+		$('videoReel{0} img'.format(this.target)).animate({'opacity':1});
+		$('videoReel{0} .overlay'.format(this.target)).animate({'opacity':0});
+	});
+}
 
-    var targets = ['1','2','3','4','5','6'];
 
-    $.each(targets, overlayAssign(target))
-    }
-};
-
-$(document).ready(function() {
-    overlayExecute();
-});
+document.ready(function() {assign("1");});
